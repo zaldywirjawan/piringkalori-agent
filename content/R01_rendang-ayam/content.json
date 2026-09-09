@@ -1,0 +1,149 @@
+{
+  "kode": "R01",
+  "slug": "rendang-ayam",
+  "kategori": "resep",
+  "judul": "Rendang Ayam Diet — 275 kkal",
+  "keyword_utama": "resep rendang ayam rendah kalori",
+  "keyword_pendukung": ["rendang diet", "kalori rendang ayam", "masakan padang untuk diet"],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R01_rendang-ayam/brief/Paket-Konten-IG-Rendang-Ayam-Diet.md",
+  "disclosure_ai": true,
+
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Rendang ini cuma 275 kkal",
+      "subline": "Versi warung: ±520 kkal. Bedanya cuma di dua hal.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "275 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Rendang biasa vs versi diet",
+      "kolom": ["Biasa", "Diet"],
+      "rows": [
+        { "label": "Kalori", "biasa": "±520 kkal", "diet": "±275 kkal" },
+        { "label": "Lemak", "biasa": "38 g", "diet": "14 g" },
+        { "label": "Protein", "biasa": "22 g", "diet": "28 g" },
+        { "label": "Serat", "biasa": "1,5 g", "diet": "2 g" },
+        { "label": "Gula", "biasa": "5 g", "diet": "3 g" },
+        { "label": "Garam", "biasa": "±600 mg", "diet": "±420 mg" }
+      ],
+      "catatan": "Per porsi ±180 g (±1 piring saji). Estimasi dari TKPI Kemenkes RI & USDA FoodData Central — angka bisa bervariasi tergantung merek bahan, ukuran potongan, dan metode masak."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Yang diganti cuma ini",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Daging sapi** → dada ayam tanpa kulit",
+        "**Santan kental** → santan light + kaldu",
+        "**Gorengan bumbu** → tumis ½ sdt minyak",
+        "**Kerisik kelapa** → tetap dipakai, ini kunci gurihnya"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Tumis bumbu halus dengan ½ sdt minyak sampai harum, ±5 menit.",
+        "Masukkan serai & daun jeruk, tuang santan light + kaldu ayam.",
+        "Masukkan ayam, kecilkan api, masak sampai kuah menyusut.",
+        "Tambahkan kerisik & gula merah, masak sampai kering dan meresap."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = ±180 g (±1 piring saji)",
+      "items": [
+        { "label": "Protein", "value": 28, "unit": " g", "pct": 100, "highlight": true },
+        { "label": "Lemak", "value": 14, "unit": " g", "pct": 50 },
+        { "label": "Karbohidrat", "value": 9, "unit": " g", "pct": 32 },
+        { "label": "Gula", "value": 3, "unit": " g", "pct": 15 },
+        { "label": "Serat", "value": 2, "unit": " g", "pct": 12 },
+        { "label": "Garam", "value": 420, "unit": " mg", "pct": 42 }
+      ],
+      "catatan": "Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Rendang versi kamu, original atau diet?",
+      "subtext": "Komen di bawah — aku baca satu-satu.",
+      "pill": "Simpan dulu buat dimasak akhir pekan",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Resep ini diracik untuk tetap gurih; belum diuji dapur."
+    }
+  ],
+
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "Rendang 275 kkal — beneran masih berasa rendang?",
+      "subline": "Jawabannya ada di dua bahan yang diganti.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Tim rendang\" / \"Tim ketoprak\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Kuncinya kerisik, bukan santan kental",
+      "subline": "Kelapa parut disangrai sampai kecoklatan, lalu dihaluskan.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Resep lengkapnya sudah naik",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+
+  "caption": "Resep rendang ayam rendah kalori ini cuma 275 kkal per porsi — dan rasanya masih terasa rendang, bukan rendang-rendangan.\n\nRendang warung biasanya menembus ±520 kkal per porsi karena tiga hal: santan kental dimasak sampai pecah minyak, bumbu digoreng dengan minyak berlebih, dan dagingnya bagian berlemak. Yang diubah di sini cuma dua yang pertama.\n\nPer porsi (±180 g):\n• Kalori 275 kkal\n• Protein 28 g\n• Karbohidrat 9 g\n• Lemak 14 g\n• Serat 2 g\n• Gula 3 g\n• Garam (sodium) 420 mg\n\nCara masaknya:\n1. Tumis bumbu halus (cabai, bawang, kunyit, jahe, lengkuas) dengan ½ sdt minyak sampai harum.\n2. Masukkan serai & daun jeruk, tuang santan light + kaldu ayam rendah sodium.\n3. Masukkan dada ayam, kecilkan api, masak sampai kuah menyusut.\n4. Tambahkan kerisik kelapa sangrai + gula merah, masak sampai kering dan meresap (±30-40 menit).\n5. Opsional: air fryer 180°C 8-10 menit supaya permukaannya sedikit garing.\n\nPro-tip: jangan lewatkan kerisiknya. Satu sendok makan kelapa sangrai halus memberi rasa gurih yang biasanya datang dari santan kental — ini yang bikin pengurangan santan tidak terasa sebagai kehilangan.\n\nRendang versi kamu, original atau diet? Komen di bawah.\n\nAngka nutrisi adalah estimasi (TKPI Kemenkes RI & USDA FoodData Central) dan bisa bervariasi tergantung merek bahan, ukuran potongan, dan metode masak. Resep ini belum diuji dapur — target rasanya gurih rempah, bukan klaim.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu, sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+
+  "hashtag_set": "A",
+  "hashtags": "#RendangDiet #MenuDietIndonesia #DietTanpaTersiksa #ResepDietEnak #CleanEatingIndonesia #MenuSehatHarian #DefisitKalori #MakanEnakTetapDiet #ResepRendangSehat #HealthyLifestyleID #DietTapiKenyang #MasakanPadang #FitFamIndonesia",
+
+  "alt_text": [
+    "Cover carousel resep rendang ayam rendah kalori dengan badge 275 kkal dan foto piring rendang ayam diet.",
+    "Tabel perbandingan nutrisi rendang ayam biasa versus versi diet: kalori, lemak, protein, serat, gula, dan garam per porsi.",
+    "Foto flatlay bahan mentah rendang ayam diet: dada ayam, santan light, cabai, bawang, dan kelapa parut sangrai, dengan label tiap bahan.",
+    "Foto proses memasak rendang ayam diet disertai empat langkah bernomor, dari menumis bumbu sampai menambahkan kerisik.",
+    "Diagram batang rincian gizi per porsi rendang ayam diet: protein 28 gram, lemak 14 gram, karbohidrat 9 gram, gula 3 gram, serat 2 gram, garam 420 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih rendang original atau versi diet."
+  ],
+
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of Indonesian chicken rendang made with skinless chicken breast, rich dark brown glossy spiced sauce clinging to tender pieces, garnished with fresh red chili slices and kaffir lime leaves, a small bowl of steamed rice and cucumber slices beside it, on a rustic wooden table with a linen napkin"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients for Indonesian chicken rendang arranged neatly: skinless chicken breast pieces, a small jug of light coconut milk, red chilies, shallots, garlic, turmeric, ginger, galangal, toasted grated coconut, lemongrass stalks and kaffir lime leaves, on a rustic wooden table"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of chicken rendang simmering in a shallow pan, sauce reduced and glossy, toasted grated coconut being stirred in, subtle steam rising"
+    }
+  ],
+
+  "jadwal": {
+    "tanggal": "2026-09-10",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

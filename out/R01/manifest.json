@@ -1,0 +1,35 @@
+{
+  "kode": "R01",
+  "slug": "rendang-ayam",
+  "judul": "Rendang Ayam Diet — 275 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R01/carousel/01.png",
+      "out/R01/carousel/02.png",
+      "out/R01/carousel/03.png",
+      "out/R01/carousel/04.png",
+      "out/R01/carousel/05.png",
+      "out/R01/carousel/06.png"
+    ],
+    "story": [
+      "out/R01/story/01.png",
+      "out/R01/story/02.png",
+      "out/R01/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep rendang ayam rendah kalori dengan badge 275 kkal dan foto piring rendang ayam diet.",
+    "Tabel perbandingan nutrisi rendang ayam biasa versus versi diet: kalori, lemak, protein, serat, gula, dan garam per porsi.",
+    "Foto flatlay bahan mentah rendang ayam diet: dada ayam, santan light, cabai, bawang, dan kelapa parut sangrai, dengan label tiap bahan.",
+    "Foto proses memasak rendang ayam diet disertai empat langkah bernomor, dari menumis bumbu sampai menambahkan kerisik.",
+    "Diagram batang rincian gizi per porsi rendang ayam diet: protein 28 gram, lemak 14 gram, karbohidrat 9 gram, gula 3 gram, serat 2 gram, garam 420 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih rendang original atau versi diet."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-10",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

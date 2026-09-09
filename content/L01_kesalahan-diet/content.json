@@ -1,0 +1,103 @@
+{
+  "kode": "L01",
+  "slug": "kesalahan-diet",
+  "kategori": "relatable",
+  "judul": "3 Kesalahan Diet yang Paling Sering Terjadi",
+  "keyword_utama": "kesalahan diet",
+  "keyword_pendukung": ["kenapa diet gagal", "diet gagal terus", "diet berkelanjutan"],
+  "sumber_brief": "02_KONTEN/L01_kesalahan-diet/brief/L01_brief.md",
+  "disclosure_ai": false,
+
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "3 Kesalahan Diet yang Paling Sering Terjadi",
+      "subline": "…dan kenapa ketiganya hampir selalu berakhir sama."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kesalahan 1",
+      "judul": "Motong kalori terlalu ekstrem",
+      "body": [
+        "Logikanya masuk akal: makin sedikit makan, makin cepat turun.",
+        "Praktiknya? Lapar sepanjang hari, gampang emosi, lalu kalap di akhir minggu.",
+        "**Defisit yang terlalu besar hampir selalu berakhir dengan makan berlebihan.**"
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kesalahan 2",
+      "judul": "Ninggalin semua makanan favorit",
+      "body": [
+        "\"Mulai besok gak makan nasi, gak makan gorengan, gak makan manis.\"",
+        "Bertahan 5 hari. Hari ke-6 makan semuanya sekaligus.",
+        "**Yang bikin ini gagal bukan lemah niat — aturannya memang gak mungkin dijalani jangka panjang.**"
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kesalahan 3",
+      "judul": "Nimbang tiap hari, lalu panik",
+      "body": [
+        "Berat badan naik-turun 1-2 kg dalam sehari itu **normal** — air, garam, isi pencernaan, siklus hormon.",
+        "Tapi lihat angka naik pagi ini, langsung merasa gagal, lalu berhenti."
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Diet yang berhasil biasanya bukan yang paling ketat. Tapi yang paling bisa kamu jalani bulan depan.",
+      "attrib": "Pola yang sama di ketiganya: aturannya terlalu keras, jadi gak bisa bertahan."
+    },
+    {
+      "type": "cta",
+      "headline": "Kamu pernah kejebak yang mana?",
+      "subtext": "Komen nomornya — aku baca satu-satu.",
+      "pill": "Simpan buat dibaca ulang nanti",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti pagi di feed",
+      "headline": "3 kesalahan diet yang paling sering bikin berhenti di minggu ketiga",
+      "subline": "Kamu paling sering kejebak yang mana?",
+      "sticker_hint": "STICKER MANUAL: tambahkan poll 2 opsi — \"Motong kalori ekstrem\" / \"Nimbang tiap hari\"",
+      "cta": "geser ke atas"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Postingannya sudah naik di feed",
+      "subline": "Ketiganya punya pola yang sama — dan itu bukan soal niat.",
+      "sticker_hint": "STICKER MANUAL: tambahkan sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+
+  "caption": "Kalau boleh jujur, tiga kesalahan diet ini yang paling sering bikin orang berhenti di minggu ketiga:\n\n1. Motong kalori terlalu ekstrem.\nLogikanya masuk akal: makin sedikit makan, makin cepat turun. Praktiknya? Lapar sepanjang hari, gampang emosi, lalu kalap di akhir minggu. Defisit yang terlalu besar hampir selalu berakhir dengan makan berlebihan.\n\n2. Ninggalin semua makanan favorit.\n\"Mulai besok gak makan nasi, gak makan gorengan, gak makan manis.\" Bertahan 5 hari. Hari ke-6 makan semuanya sekaligus. Yang bikin ini gagal bukan lemah niat — tapi aturannya memang gak mungkin dijalani jangka panjang.\n\n3. Nimbang tiap hari, lalu panik.\nBerat badan naik-turun 1-2 kg dalam sehari itu normal — air, garam, isi pencernaan, siklus hormon. Tapi lihat angka naik pagi ini, langsung merasa gagal, lalu berhenti.\n\nPola yang sama di ketiganya: aturannya terlalu keras, jadi gak bisa bertahan.\n\nDiet yang berhasil biasanya bukan yang paling ketat. Tapi yang paling bisa kamu jalani bulan depan, dan bulan depannya lagi.\n\nKamu pernah kejebak yang mana? Komen, aku penasaran.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau hubunganmu dengan makanan terasa membebani, itu layak dibicarakan dengan tenaga profesional — bukan tanda gagal.",
+
+  "hashtag_set": "C",
+  "hashtags": "#DietGagal #TipsDiet #PerjalananDiet #DefisitKalori #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #DietBerkelanjutan #NutrisiIndonesia #DietTapiKenyang #MindsetDiet #FitFamIndonesia",
+
+  "alt_text": [
+    "Slide sampul hijau bertuliskan 3 kesalahan diet yang paling sering terjadi.",
+    "Slide penjelasan kesalahan pertama: memotong kalori terlalu ekstrem sehingga berakhir makan berlebihan.",
+    "Slide penjelasan kesalahan kedua: meninggalkan semua makanan favorit sehingga aturan tidak bisa dijalani jangka panjang.",
+    "Slide penjelasan kesalahan ketiga: menimbang berat badan setiap hari lalu panik melihat fluktuasi normal.",
+    "Slide kutipan: diet yang berhasil bukan yang paling ketat, tapi yang paling bisa dijalani bulan depan.",
+    "Slide penutup mengajak pembaca berkomentar kesalahan mana yang pernah dialami."
+  ],
+
+  "images": [],
+
+  "jadwal": {
+    "tanggal": "2026-09-08",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

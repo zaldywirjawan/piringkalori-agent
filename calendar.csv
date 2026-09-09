@@ -1,0 +1,5 @@
+id,kode,tanggal_posting,jam_posting,platform,tipe_konten,status,media_id,permalink,posted_at,catatan
+L01-feed,L01,2026-09-08,07:00,instagram,feed_carousel,draft,,,,Pilot pertama. Ubah status jadi approved kalau sudah oke.
+L01-story,L01,2026-09-08,06:30,instagram,story,draft,,,,"Sticker poll harus ditambah manual di app — API Meta tidak bisa memasang sticker."
+R01-feed,R01,2026-09-10,07:00,instagram,feed_carousel,draft,,,,"Butuh 3 foto AI dulu (hero, bahan, proses). Jalankan workflow Render dengan buat_foto dicentang."
+R01-story,R01,2026-09-10,05:00,instagram,story,draft,,,,"Story 1 & 2 butuh sticker manual (poll + countdown)."
