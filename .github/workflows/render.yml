@@ -1,0 +1,55 @@
+name: Render konten
+
+on:
+  push:
+    paths:
+      - "content/**/content.json"
+      - "brand/**"
+      - "src/render.py"
+  workflow_dispatch:
+    inputs:
+      buat_foto:
+        description: "Generate foto makanan AI juga? (biaya API)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pasang kebutuhan
+        run: |
+          pip install --quiet playwright requests pillow
+          playwright install --with-deps chromium
+
+      - name: Buat foto makanan AI
+        if: inputs.buat_foto
+        env:
+          IMAGE_PROVIDER: ${{ vars.IMAGE_PROVIDER || 'gemini' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 src/genimages.py --all
+
+      - name: Render semua slide
+        run: python3 src/render.py --all
+
+      - name: Simpan hasil ke repo
+        run: |
+          git config user.name  "piringkalori-agent"
+          git config user.email "agent@piringkalori.local"
+          git add out content
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan."
+          else
+            git commit -m "render: perbarui slide & story"
+            git push
+          fi
