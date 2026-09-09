@@ -1,5 +1,17 @@
 id,kode,tanggal_posting,jam_posting,platform,tipe_konten,status,media_id,permalink,posted_at,catatan
-L01-feed,L01,2026-09-08,07:00,instagram,feed_carousel,posted,17962143728981720,https://www.instagram.com/p/DdEPCAEm-B7/,2026-09-09 19:13,hashtag gagal: Graph API 400: (#10) Application does not have permission for this action
-L01-story,L01,2026-09-08,06:30,instagram,story,failed,,,,Folder konten untuk L01 tidak ditemukan di content/
-R01-feed,R01,2026-09-10,07:00,instagram,feed_carousel,draft,,,,"Butuh 3 foto AI dulu (hero, bahan, proses). Jalankan workflow Render dengan buat_foto dicentang."
-R01-story,R01,2026-09-10,05:00,instagram,story,draft,,,,Story 1 & 2 butuh sticker manual (poll + countdown).
+L01-feed,L01,2026-09-08,07:00,instagram,feed_carousel,posted,17962143728981720,https://www.instagram.com/p/DdEPCAEm-B7/,2026-09-09 19:13,"Uji coba pertama, tayang manual 9 Sep. Hashtag masuk caption."
+L01-story,L01,2026-09-08,06:30,instagram,story,skipped,,,,Dilewat. Story butuh sticker manual dan gambarnya sudah diarsipkan.
+M01-feed,M01,2026-09-16,19:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+T01-feed,T01,2026-09-19,08:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R01-feed,R01,2026-09-21,07:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.
+M02-feed,M02,2026-09-23,19:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R02-feed,R02,2026-09-26,08:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.
+T02-feed,T02,2026-09-28,07:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R03-feed,R03,2026-09-30,19:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.
+L02-feed,L02,2026-10-03,08:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R04-feed,R04,2026-10-05,07:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.
+M03-feed,M03,2026-10-07,19:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R05-feed,R05,2026-10-10,08:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.
+T03-feed,T03,2026-10-12,07:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+Q01-feed,Q01,2026-10-14,19:00,instagram,feed_carousel,draft,,,,"Tanpa foto, siap tayang."
+R06-feed,R06,2026-10-17,08:00,instagram,feed_carousel,draft,,,,Butuh 3 foto AI dulu.

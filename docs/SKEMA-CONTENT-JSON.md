@@ -27,7 +27,7 @@ dan (kalau perlu foto) subfolder `img/`.
 
   "caption":  "…",                  // Tahap 8, teks utuh siap tempel
   "hashtag_set": "A",               // A niche | B edukasi | C komunitas
-  "hashtags": "#… #… #…",           // masuk ke komentar pertama, bukan caption
+  "hashtags": "#… #… #…",           // ikut ditempel di akhir caption oleh publish.py
   "alt_text": ["…", "…"],           // satu per slide carousel, berurutan
 
   "images": [                       // dipakai src/genimages.py
@@ -43,8 +43,11 @@ dan (kalau perlu foto) subfolder `img/`.
 
 - `alt_text` harus sama banyak dengan jumlah slide `carousel`, urutannya sama.
   Keyword utama wajib muncul natural di `alt_text[0]` (Tahap 2).
-- `hashtags` **tidak** boleh ikut ditempel di `caption` — publish.py yang
-  menaruhnya sebagai komentar pertama.
+- `hashtags` **tidak** boleh ikut diketik di dalam `caption` — publish.py yang
+  menempelkannya di akhir caption saat posting, dipisah tiga titik.
+  (Rencana awalnya komentar pertama, tapi itu butuh izin Meta
+  `instagram_manage_comments` yang tidak kita minta; Meta menolaknya
+  dengan error `(#10)`.)
 - Foto dirujuk dengan path relatif dari folder konten: `"image": "img/hero.png"`.
   Kalau file belum ada, slide tetap dirender dengan kotak "FOTO BELUM ADA" —
   jadi Anda bisa melihat layout-nya sebelum membayar generate foto.

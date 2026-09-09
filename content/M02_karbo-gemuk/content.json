@@ -1,0 +1,111 @@
+{
+  "kode": "M02",
+  "slug": "karbo-gemuk",
+  "kategori": "mitos",
+  "judul": "Karbo Bikin Gemuk?",
+  "keyword_utama": "karbo bikin gemuk",
+  "keyword_pendukung": [
+    "mitos karbohidrat",
+    "kalori per gram makronutrien",
+    "diet tanpa nasi"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 2",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "MITOS",
+      "headline": "\"Karbo bikin gemuk\"",
+      "subline": "Kalimat ini yang bikin banyak orang takut nasi. Padahal angkanya bilang lain."
+    },
+    {
+      "type": "macros",
+      "judul": "Kalori per gram, dibandingkan",
+      "porsi": "Angka baku, berlaku untuk semua makanan",
+      "items": [
+        {
+          "label": "Lemak",
+          "value": 9,
+          "unit": " kkal/g",
+          "pct": 100,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 4,
+          "unit": " kkal/g",
+          "pct": 44
+        },
+        {
+          "label": "Protein",
+          "value": 4,
+          "unit": " kkal/g",
+          "pct": 44
+        }
+      ],
+      "catatan": "Karbo dan protein sama saja per gramnya. Karbo tidak punya kekuatan khusus untuk menggemukkan."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Yang sebenarnya menentukan",
+      "judul": "Surplus kalori",
+      "body": [
+        "Berat badan naik ketika total kalori yang masuk lebih besar dari yang keluar. Itu saja.",
+        "Bukan satu jenis makronutrien tertentu yang jadi penyebabnya."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Tapi ada catatannya",
+      "judul": "Karbo olahan gampang bikin kebablasan",
+      "body": [
+        "Roti putih, gorengan, minuman manis — kenyangnya sebentar, kalorinya banyak.",
+        "Jadi masalahnya bukan karbonya. Tapi **seberapa gampang kita kebablasan** dengan jenis tertentu."
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Kamu gak harus benci nasi buat turun berat badan",
+      "subtext": "Kirim ini ke teman yang masih takut karbo.",
+      "pill": "Simpan buat argumen di grup keluarga",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Punya kondisi seperti diabetes? Konsultasikan pola makanmu dengan dokter atau ahli gizi."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Karbo 4 kkal/g. Protein juga 4 kkal/g.",
+      "subline": "Jadi kenapa cuma karbo yang dituduh?",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Masih takut nasi\" / \"Udah gak takut\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Yang bikin gemuk itu surplus kalori",
+      "subline": "Tapi ada catatan jujur yang tetap perlu disebut soal karbo olahan.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "\"Karbo bikin gemuk\" — ini yang paling sering aku dengar, dan sayangnya sering berujung diet yang gak bertahan lama.\n\nFaktanya: karbohidrat itu 4 kkal per gram. Protein juga 4 kkal per gram. Lemak justru 9. Jadi karbo gak punya kekuatan khusus buat bikin gemuk.\n\nYang bikin berat badan naik adalah surplus kalori — total masuk lebih besar dari total keluar. Titik.\n\nTapi ada catatannya, dan ini yang jujur harus disebut: makanan tinggi karbo olahan itu memang gampang bikin kebablasan. Roti putih, gorengan, minuman manis — kenyangnya sebentar, kalorinya banyak. Jadi masalahnya bukan \"karbo\", tapi jenis dan jumlahnya.\n\nKabar baiknya? Kamu gak harus benci nasi buat turun berat badan.\n\nKirim ini ke teman yang masih takut karbo.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi seperti diabetes, konsultasikan pola makanmu dengan dokter atau ahli gizi.",
+  "hashtag_set": "B",
+  "hashtags": "#MitosDiet #KarboBikinGemuk #FaktaGizi #DefisitKalori #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #GiziSeimbang #NutrisiIndonesia #DietTapiKenyang #BelajarGizi #MakanNasi #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau dengan kalimat karbo bikin gemuk yang ditandai sebagai mitos.",
+    "Diagram batang perbandingan kalori per gram: lemak 9 kkal, karbohidrat 4 kkal, protein 4 kkal.",
+    "Slide penjelasan bahwa penyebab kenaikan berat badan adalah surplus kalori, bukan satu makronutrien tertentu.",
+    "Slide catatan bahwa makanan tinggi karbohidrat olahan mudah dikonsumsi berlebihan karena rasa kenyangnya singkat.",
+    "Slide penutup mengajak pembaca membagikan konten ke teman yang masih takut mengonsumsi karbohidrat."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-09-23",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

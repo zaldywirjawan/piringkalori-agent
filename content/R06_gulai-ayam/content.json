@@ -1,0 +1,205 @@
+{
+  "kode": "R06",
+  "slug": "gulai-ayam",
+  "kategori": "resep",
+  "judul": "Gulai Ayam Diet — 255 kkal",
+  "keyword_utama": "resep gulai ayam rendah kalori",
+  "keyword_pendukung": [
+    "gulai ayam diet",
+    "kalori gulai ayam",
+    "menu keluarga ramah diet"
+  ],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R06_gulai-ayam/brief/Paket-Konten-IG-Gulai-Ayam-Diet.md",
+  "disclosure_ai": true,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Kuahnya kental. Santannya sedikit.",
+      "subline": "Satu panci buat sekeluarga — 255 kkal per mangkuk.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "255 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Gulai biasa vs versi diet",
+      "kolom": [
+        "Biasa",
+        "Diet"
+      ],
+      "rows": [
+        {
+          "label": "Kalori",
+          "biasa": "±470 kkal",
+          "diet": "±255 kkal"
+        },
+        {
+          "label": "Lemak",
+          "biasa": "32 g",
+          "diet": "10 g"
+        },
+        {
+          "label": "Protein",
+          "biasa": "21 g",
+          "diet": "25 g"
+        },
+        {
+          "label": "Serat",
+          "biasa": "1 g",
+          "diet": "2 g"
+        },
+        {
+          "label": "Garam",
+          "biasa": "±700 mg",
+          "diet": "±405 mg"
+        },
+        {
+          "label": "Pengental kuah",
+          "biasa": "Santan kental + kemiri banyak",
+          "diet": "Kentang halus + santan light"
+        }
+      ],
+      "catatan": "Per porsi 250 g (±1 mangkuk sedang, belum termasuk nasi). Estimasi dari TKPI Kemenkes RI & USDA FoodData Central — angka bisa bervariasi tergantung merek bahan, ukuran potongan, dan metode masak."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Kuah kental datang dari sini",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Kentang rebus** → separuh dihaluskan, jadi pengental kuah",
+        "**Santan kental** → santan light, dituang paling akhir",
+        "**Kemiri banyak** → 3 butir saja, disangrai tanpa minyak",
+        "**Rempah utuh** → diperbanyak: serai, daun jeruk, kayu manis"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Rebus kentang sampai empuk, haluskan separuhnya dengan sedikit kaldu.",
+        "Sangrai kemiri tanpa minyak, haluskan bersama bumbu lain.",
+        "Tumis bumbu halus dengan ¼ sdt minyak di teflon, ±5 menit.",
+        "Tuang kaldu ayam, masukkan ayam dan rempah utuh sampai matang.",
+        "Masukkan kentang halus, lalu santan light di akhir dengan api kecil."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = 250 g (±1 mangkuk sedang, belum termasuk nasi)",
+      "items": [
+        {
+          "label": "Protein",
+          "value": 25,
+          "unit": " g",
+          "pct": 100,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 14,
+          "unit": " g",
+          "pct": 56
+        },
+        {
+          "label": "Lemak",
+          "value": 10,
+          "unit": " g",
+          "pct": 40
+        },
+        {
+          "label": "Serat",
+          "value": 2,
+          "unit": " g",
+          "pct": 8
+        },
+        {
+          "label": "Gula",
+          "value": 2,
+          "unit": " g",
+          "pct": 8
+        },
+        {
+          "label": "Garam",
+          "value": 405,
+          "unit": " mg",
+          "pct": 41
+        }
+      ],
+      "catatan": "Kalori ±255 kkal per porsi. Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Menu keluarga apa lagi yang pengen versi dietnya?",
+      "subtext": "Sebut nama masakannya di komentar — aku antre-kan.",
+      "pill": "Simpan buat menu masak minggu ini",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Target rasanya kuah kental gurih; resep ini belum diuji dapur."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "Gulai kamu tim kuah kental atau kuah encer?",
+      "subline": "Yang tim kental, nanti pagi ada triknya tanpa santan kental.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Kuah kental\" / \"Kuah encer\"",
+      "cta": "jawab dulu ya"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Pengentalnya kentang, bukan santan",
+      "subline": "Separuh kentang rebus dihaluskan dengan kaldu, lalu balik ke panci.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Satu panci, sekeluarga bisa makan",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+  "caption": "Satu panci buat sekeluarga: resep gulai ayam rendah kalori ini 255 kkal per mangkuk sedang, dan kuahnya tetap kental.\n\nMasalahnya sering bukan soal tidak tahu resep diet, tapi tidak mungkin masak dua menu tiap hari — satu untuk keluarga, satu untuk diri sendiri. Gulai ini dibuat supaya satu panci saja cukup: rasanya tetap gulai untuk semua orang di meja, tapi angkanya masih terbaca jelas buat kamu.\n\nGulai warung biasanya menembus ±470 kkal per porsi karena santan kental jadi basis kuah, ayamnya berkulit, bumbunya digoreng sampai pecah minyak, dan kemirinya banyak untuk mengentalkan.\n\nPer porsi (250 g, belum termasuk nasi):\n• Kalori 255 kkal\n• Protein 25 g\n• Karbohidrat 14 g\n• Lemak 10 g\n• Serat 2 g\n• Gula 2 g\n• Garam (sodium) 405 mg\n\nCara masaknya:\n1. Rebus kentang sampai empuk. Ambil separuhnya, haluskan dengan sedikit kaldu — ini yang jadi pengental kuah.\n2. Sangrai kemiri tanpa minyak sampai kecoklatan, haluskan bersama bawang merah, bawang putih, kunyit, jahe, lengkuas, ketumbar, dan jintan.\n3. Tumis bumbu halus dengan ¼ sdt minyak per porsi di teflon anti lengket sampai harum, ±5 menit. Masukkan serai, daun jeruk, daun salam, dan kayu manis.\n4. Tuang kaldu ayam rendah sodium, masukkan dada ayam tanpa kulit, masak sampai matang.\n5. Masukkan kentang halus dan kentang utuh — kuah akan mengental sendiri. Tuang santan light paling akhir, masak dengan api kecil sambil diaduk.\n\nPro-tip: jangan merebus santan lama-lama. Santan yang dimasak terlalu lama akan pecah dan mengeluarkan minyak di permukaan — itu salah satu alasan gulai biasa terlihat berminyak. Dengan kentang halus sebagai pengental, kekentalan kuahnya sudah terbentuk sebelum santan masuk.\n\nSajikan dengan nasi yang ditakar terpisah, plus sayur rebus atau lalapan di samping supaya satu piring tetap terasa penuh.\n\nMenu keluarga apa lagi yang pengen kamu lihat versi dietnya? Sebut nama masakannya di komentar, atau simpan dulu buat menu masak minggu ini.\n\nAngka nutrisi adalah estimasi per porsi dari resep untuk 4 porsi (TKPI Kemenkes RI & USDA FoodData Central) dan bisa bervariasi tergantung merek bahan, ukuran potongan, dan metode masak. Resep ini belum diuji dapur — kuah kental gurih adalah target rasa, bukan klaim.\n\nCatatan alergen: mengandung santan (kelapa) dan kemiri (kacang pohon). Bebas gluten selama kaldu yang dipakai juga bebas gluten. Level pedas mild-medium, bisa disesuaikan.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu, sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+  "hashtag_set": "A",
+  "hashtags": "#GulaiAyam #ResepGulai #GulaiAyamDiet #MenuDietIndonesia #ResepDietEnak #MasakanRumahan #MenuKeluarga #DefisitKalori #MenuSehatHarian #MakanEnakTetapDiet #ResepAyamSehat #HealthyLifestyleID #DietTapiKenyang #MasakanIndonesia #FitFamIndonesia",
+  "alt_text": [
+    "Cover carousel resep gulai ayam rendah kalori dengan badge 255 kkal dan foto semangkuk gulai berkuah kental.",
+    "Tabel perbandingan gulai ayam biasa versus versi diet: kalori, lemak, protein, serat, garam, dan cara mengentalkan kuah.",
+    "Foto flatlay bahan mentah gulai ayam diet: dada ayam tanpa kulit, kentang, santan light, kemiri, dan rempah utuh, dengan label tiap bahan.",
+    "Foto proses memasak gulai ayam diet disertai lima langkah bernomor, dari merebus kentang sampai menuang santan light di akhir.",
+    "Diagram batang rincian gizi per porsi gulai ayam diet: protein 25 gram, karbohidrat 14 gram, lemak 10 gram, serat 2 gram, gula 2 gram, garam 405 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan menyebutkan menu keluarga lain yang ingin dibuat versi dietnya."
+  ],
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of Indonesian chicken gulai in a ceramic bowl, thick golden turmeric broth, skinless chicken breast pieces and soft potato chunks, topped with fried shallots and a kaffir lime leaf, a small bowl of steamed rice and a lemongrass stalk beside it"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients for chicken gulai arranged neatly: skinless chicken breast pieces, diced potatoes, a small jug of light coconut milk, candlenuts, shallots, garlic, turmeric root, ginger, galangal, lemongrass stalks, kaffir lime leaves, bay leaves and a cinnamon stick"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of chicken gulai simmering in a pot, mashed potato being stirred into the golden broth until it thickens, chicken pieces and potato chunks visible, gentle steam rising"
+    }
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-17",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

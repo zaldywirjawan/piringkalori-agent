@@ -1,0 +1,84 @@
+{
+  "kode": "M01",
+  "slug": "nasi-dingin",
+  "kategori": "mitos",
+  "judul": "Nasi Dingin Lebih Rendah Kalori?",
+  "keyword_utama": "nasi dingin lebih rendah kalori",
+  "keyword_pendukung": [
+    "pati resisten nasi",
+    "mitos diet nasi",
+    "kalori nasi dingin"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 1",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "MITOS ATAU FAKTA?",
+      "headline": "Nasi dingin lebih rendah kalori?",
+      "subline": "Jawabannya bukan ya, bukan juga tidak."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Separuh benar",
+      "judul": "Pati resistennya memang nyata",
+      "body": [
+        "Nasi yang didinginkan membentuk **pati resisten** — jenis pati yang tidak sepenuhnya dicerna tubuh sebagai karbohidrat biasa.",
+        "Jadi ada efeknya. Tapi efeknya **kecil**, bukan drastis.",
+        "Nasi dingin tidak berubah jadi makanan rendah kalori."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Yang lebih menentukan",
+      "judul": "Porsinya",
+      "body": [
+        "200 g nasi dingin tetap lebih banyak kalorinya daripada 100 g nasi hangat.",
+        "Dinginkan nasimu kalau mau — tapi jangan jadikan itu alasan untuk nambah porsi."
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Mitos diet apa lagi yang mau dibahas?",
+      "subtext": "Tulis di komentar — aku bahas satu per satu.",
+      "pill": "Simpan kalau ini bikin kamu mikir",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Nasi dingin lebih rendah kalori — mitos atau fakta?",
+      "subline": "Jawabannya lebih menarik dari yang kamu kira.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Mitos\" / \"Fakta\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Ternyata separuh benar",
+      "subline": "Efeknya nyata, tapi jauh lebih kecil dari yang sering diceritakan.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Nasi dingin lebih rendah kalori — ini salah satu mitos diet yang paling sering aku dengar, dan menariknya, tidak sepenuhnya salah.\n\nNasi yang didinginkan memang membentuk pati resisten, yang tidak dicerna sepenuhnya seperti karbo biasa. Jadi ada efeknya. Tapi efeknya kecil, bukan sulap.\n\nMasalahnya, banyak yang lalu berpikir \"berarti nasi dingin bebas dimakan banyak\". Padahal 200 g nasi dingin tetap lebih tinggi kalorinya dibanding 100 g nasi hangat. Porsi tetap faktor terbesarnya.\n\nKesimpulan jujurnya: silakan dinginkan nasimu, tapi jangan jadikan itu alasan buat nambah.\n\nKamu pernah dengar mitos diet apa lagi yang pengen aku bahas? Komen di bawah.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "B",
+  "hashtags": "#MitosDiet #FaktaGizi #NasiDingin #PatiResisten #EdukasiGizi #DefisitKalori #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #NutrisiIndonesia #GiziSeimbang #DietTapiKenyang #BelajarGizi #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau bertanya apakah nasi dingin lebih rendah kalori, dengan badge mitos atau fakta.",
+    "Slide penjelasan bahwa nasi dingin membentuk pati resisten, tapi efeknya kecil dan tidak drastis.",
+    "Slide penjelasan bahwa porsi lebih menentukan: 200 gram nasi dingin tetap lebih tinggi kalorinya daripada 100 gram nasi hangat.",
+    "Slide penutup mengajak pembaca menuliskan mitos diet lain yang ingin dibahas."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-09-16",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

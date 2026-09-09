@@ -1,0 +1,106 @@
+{
+  "kode": "T02",
+  "slug": "takaran-tangan",
+  "kategori": "tips",
+  "judul": "Takar Porsi Pakai Tangan Sendiri",
+  "keyword_utama": "cara takar porsi makan pakai tangan",
+  "keyword_pendukung": [
+    "takaran porsi tanpa timbangan",
+    "porsi protein karbo sayur",
+    "porsi makan diet"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 5",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "TIPS PRAKTIS",
+      "headline": "Gak punya timbangan? Pakai tangan.",
+      "subline": "Takaran porsi yang selalu kebawa ke mana-mana."
+    },
+    {
+      "type": "list",
+      "judul": "Empat takaran dasarnya",
+      "items": [
+        {
+          "headline": "Telapak tangan = protein",
+          "body": "Setebal dan seluas telapak, tanpa jari. Setara 1 porsi ayam, ikan, atau daging."
+        },
+        {
+          "headline": "Kepalan = sayur",
+          "body": "1-2 kepalan tiap makan. Ini yang paling sering kurang."
+        },
+        {
+          "headline": "Cakupan telapak = karbo",
+          "body": "Satu cakupan setara 1 porsi nasi, kentang, atau mie."
+        },
+        {
+          "headline": "Ibu jari = lemak",
+          "body": "Seukuran ibu jari setara 1 porsi minyak, kacang, atau keju."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kenapa metode ini masuk akal",
+      "judul": "Skalanya ikut ukuran tubuhmu",
+      "body": [
+        "Orang bertubuh besar punya tangan lebih besar, jadi porsinya **otomatis menyesuaikan**.",
+        "Gak perlu hitung ulang, gak perlu tabel."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Batasnya",
+      "judul": "Ini bukan pengganti timbangan",
+      "body": [
+        "Kalau kamu sedang tracking ketat, timbangan tetap paling akurat.",
+        "Tapi buat makan di luar? Jauh lebih baik daripada menebak."
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Takaran ini selalu kebawa",
+      "subtext": "Ke kantor, ke warung, ke kondangan — tanganmu selalu ikut.",
+      "pill": "Simpan biar gak lupa",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Timbangan dapur gak mungkin kamu bawa ke kondangan",
+      "subline": "Ada takaran cadangan yang selalu ikut ke mana pun.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Pakai timbangan\" / \"Kira-kira aja\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Telapak, kepalan, cakupan, ibu jari",
+      "subline": "Empat takaran yang skalanya otomatis menyesuaikan ukuran tubuhmu.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Cara takar porsi makan pakai tangan ini berguna banget, karena timbangan dapur memang paling akurat — tapi gak mungkin kamu bawa ke kantor, ke warung, atau ke kondangan.\n\nIni takaran cadangan yang selalu kebawa: tanganmu sendiri.\n\n• Telapak tangan (tanpa jari) = 1 porsi protein → ayam, ikan, daging\n• Kepalan = 1 porsi sayur → idealnya 1-2 kepalan tiap makan, dan ini yang paling sering kurang\n• Cakupan telapak = 1 porsi karbo → nasi, kentang, mie\n• Ibu jari = 1 porsi lemak → minyak, kacang, keju\n\nYang bikin metode ini masuk akal: skala tanganmu mengikuti ukuran tubuhmu. Orang bertubuh besar punya tangan lebih besar, jadi porsinya otomatis menyesuaikan. Gak perlu hitung ulang.\n\nIni bukan pengganti timbangan kalau kamu lagi tracking ketat. Tapi buat makan di luar? Jauh lebih baik daripada nebak.\n\nSimpan biar gak lupa.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "B",
+  "hashtags": "#TakaranPorsi #TipsDiet #PorsiMakan #EdukasiGizi #DefisitKalori #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #GiziSeimbang #NutrisiIndonesia #TipsSehat #MakanDiLuar #DietTapiKenyang #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau berjudul cara menakar porsi makan menggunakan tangan tanpa timbangan.",
+    "Slide daftar empat takaran: telapak tangan untuk protein, kepalan untuk sayur, cakupan telapak untuk karbohidrat, ibu jari untuk lemak.",
+    "Slide penjelasan bahwa ukuran tangan mengikuti ukuran tubuh sehingga porsinya menyesuaikan dengan sendirinya.",
+    "Slide catatan bahwa metode tangan bukan pengganti timbangan saat sedang melakukan pencatatan ketat.",
+    "Slide penutup menegaskan takaran tangan selalu terbawa ke mana pun."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-09-28",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

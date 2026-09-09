@@ -1,0 +1,205 @@
+{
+  "kode": "R04",
+  "slug": "nasi-padang",
+  "kategori": "resep",
+  "judul": "Nasi Padang Komplit Diet — 400 kkal",
+  "keyword_utama": "resep nasi padang rendah kalori",
+  "keyword_pendukung": [
+    "nasi padang diet",
+    "kalori nasi padang",
+    "menu makan siang rendah kalori"
+  ],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R04_nasi-padang/brief/Paket-Konten-IG-Nasi-Padang-Diet.md",
+  "disclosure_ai": true,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Nasi padang ini 400 kkal",
+      "subline": "Versi warung: ±800 kkal. Separuh selisihnya datang dari porsi yang ditakar.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "400 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Nasi padang biasa vs versi diet",
+      "kolom": [
+        "Biasa",
+        "Diet"
+      ],
+      "rows": [
+        {
+          "label": "Kalori",
+          "biasa": "±800 kkal",
+          "diet": "±400 kkal"
+        },
+        {
+          "label": "Porsi nasi",
+          "biasa": "200-250 g putih",
+          "diet": "100 g merah, ditimbang"
+        },
+        {
+          "label": "Lemak",
+          "biasa": "40 g",
+          "diet": "13 g"
+        },
+        {
+          "label": "Protein",
+          "biasa": "28 g",
+          "diet": "33 g"
+        },
+        {
+          "label": "Serat",
+          "biasa": "3 g",
+          "diet": "8 g"
+        },
+        {
+          "label": "Garam",
+          "biasa": "±1.100 mg",
+          "diet": "±460 mg"
+        }
+      ],
+      "catatan": "Per porsi ±400 g (±1 piring saji komplit). **Perlu jujur:** sebagian besar selisih kalori datang dari porsi nasi yang diperkecil dan kuah gulai yang tidak disiram — sisanya dari ayam dibakar dan santan light. Angka estimasi (TKPI Kemenkes RI & USDA FoodData Central)."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Mana yang diubah, mana yang cuma dikecilkan",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Nasi putih 200-250 g** → nasi merah 100 g, ditimbang (porsi diperkecil)",
+        "**Sambal ijo sesendok besar** → 1 sdm terukur (porsi diperkecil)",
+        "**Ayam pop/rendang goreng** → dada ayam tanpa kulit, dibakar (teknik)",
+        "**Santan kental disiram bebas** → gulai santan light, kuah dipisah (bahan)"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Lumuri dada ayam dengan bumbu halus Padang, diamkan 30 menit.",
+        "Bakar di teflon grill atau air fryer 190°C, 15-18 menit, balik di menit ke-8.",
+        "Tumis sisa bumbu dengan ½ sdt minyak, masukkan nangka muda, tuang santan light + kaldu, masak sampai kuah menyusut.",
+        "Rebus daun singkong 5-7 menit, lalu tiriskan.",
+        "Timbang nasi merah 100 g, tata piring, sambal ijo 1 sdm di sisi — kuah gulai jangan disiram ke nasi."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = 400 g (±1 piring saji komplit)",
+      "items": [
+        {
+          "label": "Protein",
+          "value": 33,
+          "unit": " g",
+          "pct": 84.6,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 39,
+          "unit": " g",
+          "pct": 100.0
+        },
+        {
+          "label": "Lemak",
+          "value": 13,
+          "unit": " g",
+          "pct": 33.3
+        },
+        {
+          "label": "Serat",
+          "value": 8,
+          "unit": " g",
+          "pct": 20.5
+        },
+        {
+          "label": "Gula",
+          "value": 5,
+          "unit": " g",
+          "pct": 12.8
+        },
+        {
+          "label": "Garam",
+          "value": 460,
+          "unit": " mg",
+          "pct": 46
+        }
+      ],
+      "catatan": "Kalori ±400 kkal per porsi, dengan nasi merah yang ditimbang 100 g. Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Kamu tim kuah disiram atau dipisah?",
+      "subtext": "Komen di bawah — aku baca satu-satu.",
+      "pill": "Simpan buat dibaca sebelum antre di etalase",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Resep ini belum diuji dapur — yang ditulis di sini target rasa, bukan klaim."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "Nasi padang komplit 400 kkal — piringnya masih penuh?",
+      "subline": "Masih penuh, tapi nasinya ditimbang. Besok pagi kubuka hitungannya.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Kuah disiram\" / \"Kuah dipisah\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Kuncinya di timbangan, bukan di resep rahasia",
+      "subline": "Nasi merah 100 g ditimbang, kuah gulai dipisah, ayam dibakar bukan digoreng.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Hitungan lengkapnya sudah naik",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro per porsi.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+  "caption": "Resep nasi padang rendah kalori ini 400 kkal per piring — nasi, lauk, gulai, sayur, dan sambal tetap lengkap.\n\nSatu hal yang perlu disebut duluan supaya tidak menyesatkan: sebagian besar pemangkasan kalorinya datang dari **porsi**, bukan dari trik masak. Nasi dikecilkan dari 200-250 g menjadi nasi merah 100 g yang ditimbang, kuah gulai tidak disiram ke nasi, dan sambal ijo ditakar 1 sdm. Baru sisanya datang dari teknik dan bahan: dada ayam tanpa kulit dibakar (bukan digoreng) dan gulai nangka pakai santan light. Jadi kalau piring ini terasa lebih ringan dari nasi padang warung, memang begitu adanya — daun singkong rebus ditambahkan supaya piringnya tetap penuh dan rasa kenyangnya bertahan.\n\nPer porsi (400 g / ±1 piring komplit):\n• Kalori 400 kkal\n• Protein 33 g\n• Karbohidrat 39 g\n• Lemak 13 g\n• Serat 8 g\n• Gula 5 g\n• Garam (sodium) 460 mg\n\nSebagai pembanding, nasi padang komplit versi warung umumnya di kisaran ±800 kkal per piring, dengan lemak ±40 g dan sodium ±1.100 mg.\n\nCara masaknya (untuk 4 porsi):\n1. Haluskan bumbu Padang (bawang merah, bawang putih, kunyit, jahe, lengkuas, ketumbar, serai, daun jeruk), lumuri 400 g dada ayam tanpa kulit, diamkan 30 menit.\n2. Bakar di teflon grill atau air fryer 190°C selama 15-18 menit, balik di menit ke-8.\n3. Gulai nangka: tumis sisa bumbu halus dengan ½ sdt minyak, masukkan 320 g nangka muda, tuang 280 ml santan light + 200 ml kaldu ayam rendah sodium, masak sampai empuk dan kuah menyusut.\n4. Rebus 240 g daun singkong 5-7 menit, tiriskan.\n5. Sambal ijo: kukus cabai hijau, bawang merah, dan tomat hijau sampai layu, ulek kasar, tumis sebentar dengan 1 sdt minyak.\n6. Tata piring: nasi merah 100 g (timbang, jangan dikira-kira), ayam bakar, gulai nangka, daun singkong, sambal ijo 1 sdm di sisi — bukan disiram.\n\nKalau kamu sedang berdiri di depan etalase RM Padang dan tidak masak sendiri: minta kuah gulai dipisah dan ambil nasi lebih sedikit. Dua kebiasaan itu yang paling gampang dilakukan dan paling besar efeknya terhadap total kalori satu piring.\n\nAngka nutrisi adalah estimasi per porsi dari resep untuk 4 porsi, mengacu ke TKPI Kemenkes RI dan USDA FoodData Central, dan bisa bervariasi tergantung merek bahan, ukuran potongan, dan metode masak. Resep ini belum diuji dapur — targetnya bumbu Padang tetap terasa, dan itu target, bukan klaim.\n\nCatatan alergen: mengandung santan (hindari kalau kamu alergi kelapa). Bebas gluten selama kaldu yang dipakai juga bebas gluten. Level pedas medium-tinggi dari sambal ijo, dan sambalnya bisa dipisah.\n\nKamu tim kuah disiram atau dipisah? Komen di bawah, atau simpan dulu buat dibaca sebelum antre di etalase.\n\nKalau hubunganmu dengan makanan terasa membebani, itu layak dibicarakan dengan tenaga profesional — bukan tanda gagal.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu, sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+  "hashtag_set": "A",
+  "hashtags": "#NasiPadangDiet #MenuDietIndonesia #DietTanpaTersiksa #ResepDietEnak #MakanSiangSehat #MenuSehatHarian #DefisitKalori #MakanEnakTetapDiet #KaloriMakananIndonesia #HealthyLifestyleID #DietTapiKenyang #MasakanPadang #MakananSehatEnak #FitFamIndonesia",
+  "alt_text": [
+    "Cover carousel resep nasi padang rendah kalori dengan badge 400 kkal dan foto satu piring nasi padang komplit versi diet.",
+    "Tabel perbandingan nasi padang biasa versus versi diet: kalori, porsi nasi, lemak, protein, serat, dan garam per porsi.",
+    "Foto flatlay bahan mentah nasi padang diet berisi dada ayam, nasi merah, nangka muda, daun singkong, cabai hijau, dan bumbu, dengan label bahan yang diganti dan yang porsinya dikecilkan.",
+    "Foto proses memasak disertai lima langkah bernomor, dari melumuri ayam dengan bumbu Padang sampai menimbang nasi merah 100 gram.",
+    "Diagram batang rincian gizi per porsi: protein 33 gram, karbohidrat 39 gram, lemak 13 gram, serat 8 gram, gula 5 gram, dan garam 460 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih kuah gulai disiram atau dipisah."
+  ],
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of a complete Indonesian Padang-style meal on a ceramic plate: a small measured mound of red rice, a grilled skinless chicken breast with dark spice crust, young jackfruit curry in a thin light coconut sauce, boiled cassava leaves, and one tablespoon of green chili sambal in a separate small dish beside the plate"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients arranged neatly: skinless chicken breast, uncooked red rice in a small bowl, pieces of young jackfruit, fresh cassava leaves, large green chilies, bird's eye green chilies, green tomatoes, shallots, garlic, turmeric, ginger, galangal, lemongrass stalks, kaffir lime leaves, and a small jug of light coconut milk"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of spiced chicken breast grilling in a ridged grill pan, grill marks forming on the surface, with a small pot of young jackfruit curry in light coconut sauce simmering beside it and a kitchen scale holding a bowl of red rice in the background"
+    }
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-05",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

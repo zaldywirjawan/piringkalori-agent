@@ -1,0 +1,93 @@
+{
+  "kode": "M03",
+  "slug": "makan-malam",
+  "kategori": "mitos",
+  "judul": "Makan Malam Bikin Gemuk?",
+  "keyword_utama": "makan malam bikin gemuk",
+  "keyword_pendukung": [
+    "jangan makan setelah jam 6",
+    "mitos makan malam",
+    "waktu makan dan berat badan"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 3",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "MITOS",
+      "headline": "\"Jangan makan setelah jam 6\"",
+      "subline": "Aturan paling legendaris di Indonesia. Dan buat sebagian orang memang berhasil — tapi bukan karena alasan yang mereka kira."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Faktanya",
+      "judul": "Tubuhmu gak punya jam dinding",
+      "body": [
+        "Yang menentukan naik-turunnya berat badan adalah **total kalori harian**, bukan jam berapa kalori itu masuk.",
+        "Makan 500 kkal jam 5 sore atau jam 8 malam — tetap 500 kkal."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Lalu kenapa banyak yang merasa berhasil?",
+      "judul": "Karena totalnya ikut berkurang",
+      "body": [
+        "Berhenti makan malam otomatis memangkas kalori — gak ada lagi ngemil sambil nonton, gak ada lagi nasi tambahan jam 9.",
+        "Aturannya berhasil bukan karena jamnya, tapi karena **totalnya berkurang**."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Satu hal yang tetap layak diperhatikan",
+      "judul": "Jarak makan dengan waktu tidur",
+      "body": [
+        "Makan terlalu dekat waktu tidur bisa mengganggu kualitas tidur sebagian orang.",
+        "Kalau kamu salah satunya, beri jeda 2-3 jam sebelum tidur. Kalau tidak, makan saja."
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Pulang malam bukan berarti melanggar aturan",
+      "subtext": "Kamu tim makan malam atau enggak? Komen di bawah.",
+      "pill": "Simpan buat ditunjukkan ke yang suka mengingatkan",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Kalori jam 8 malam beda dengan kalori jam 5 sore?",
+      "subline": "Ini pertanyaan yang jawabannya sering bikin lega.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Beda dong\" / \"Sama aja\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Yang bekerja bukan jamnya",
+      "subline": "Tapi kalori yang ikut hilang saat kebiasaan ngemil malam berhenti.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Makan malam bikin gemuk? Aturan \"jangan makan setelah jam 6\" ini legendaris banget di Indonesia. Dan lucunya, buat sebagian orang memang berhasil — tapi bukan karena alasan yang mereka kira.\n\nTubuh kita gak punya jam dinding. 500 kalori yang masuk jam 5 sore dan jam 8 malam tetap 500 kalori. Yang menentukan adalah total harian, bukan jamnya.\n\nLalu kenapa banyak yang merasa berhasil? Karena berhenti makan malam otomatis memangkas kalori — gak ada lagi ngemil sambil nonton, gak ada lagi nasi tambahan jam 9. Totalnya berkurang. Itu yang bekerja, bukan jamnya.\n\nJadi kalau kamu kerja shift, pulang malam, atau baru sempat makan jam 8 — kamu gak sedang \"melanggar aturan\". Makan aja, yang penting masuk hitungan harianmu.\n\nSatu hal yang memang layak diperhatikan: makan terlalu dekat waktu tidur bisa mengganggu kualitas tidur sebagian orang. Kalau kamu salah satunya, beri jeda 2-3 jam sebelum tidur.\n\nKamu tim makan malam atau enggak? Komen di bawah.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "B",
+  "hashtags": "#MitosDiet #MakanMalam #FaktaGizi #DefisitKalori #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #GiziSeimbang #NutrisiIndonesia #DietTapiKenyang #BelajarGizi #PolaMakan #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau dengan aturan jangan makan setelah jam 6 yang ditandai sebagai mitos.",
+    "Slide penjelasan bahwa total kalori harian menentukan berat badan, bukan jam kalori itu masuk.",
+    "Slide penjelasan bahwa berhenti makan malam berhasil karena memangkas total kalori, bukan karena jamnya.",
+    "Slide catatan bahwa makan terlalu dekat waktu tidur dapat mengganggu kualitas tidur sebagian orang.",
+    "Slide penutup menegaskan bahwa makan malam saat pulang kerja bukan pelanggaran aturan diet."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-10-07",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

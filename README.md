@@ -32,7 +32,7 @@ Dokumen ini untuk pemakaian sehari-hari setelah semuanya terpasang.
       │
       │  ⑤  src/publish.py      → GitHub Actions "Posting ke Instagram", tiap 15 menit
       ▼
-  Instagram + komentar pertama berisi hashtag
+  Instagram (hashtag ikut di akhir caption)
       │
       │  ⑥  otomatis
       ▼

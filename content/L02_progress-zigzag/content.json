@@ -1,0 +1,111 @@
+{
+  "kode": "L02",
+  "slug": "progress-zigzag",
+  "kategori": "relatable",
+  "judul": "Progress Itu Gak Selalu Garis Lurus",
+  "keyword_utama": "berat badan naik turun itu normal",
+  "keyword_pendukung": [
+    "progress diet stagnan",
+    "timbangan naik padahal diet",
+    "fluktuasi berat badan"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 8",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Yang diharapkan vs yang terjadi",
+      "subline": "Dua-duanya sampai ke tujuan yang sama."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Yang kita bayangkan",
+      "judul": "Garis turun mulus tiap minggu",
+      "body": [
+        "Yang benar-benar terjadi: naik sedikit, turun, stagnan dua minggu, naik lagi, turun lagi.",
+        "Zigzag. Dan itu **normal**."
+      ]
+    },
+    {
+      "type": "list",
+      "judul": "Yang ikut menggerakkan angka di timbangan",
+      "items": [
+        {
+          "headline": "Kadar air tubuh",
+          "body": "Berubah harian, tidak ada hubungannya dengan lemak."
+        },
+        {
+          "headline": "Asupan garam kemarin",
+          "body": "Makan asin semalam bisa menaikkan angka pagi ini."
+        },
+        {
+          "headline": "Isi pencernaan & siklus hormon",
+          "body": "Keduanya bergerak sendiri, di luar kendalimu."
+        },
+        {
+          "headline": "Kualitas tidur & stres",
+          "body": "Ikut mempengaruhi retensi cairan."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kenapa banyak yang berhenti",
+      "judul": "Bukan karena programnya gagal",
+      "body": [
+        "Tapi karena melihat satu minggu stagnan, lalu menyimpulkan semuanya sia-sia.",
+        "Padahal satu titik bukan arah."
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Jangan menilai dari satu titik. Nilai dari arah.",
+      "attrib": "Lihat rata-rata sebulan, bukan angka pagi ini."
+    },
+    {
+      "type": "cta",
+      "headline": "Ada progress yang gak muncul di timbangan",
+      "subtext": "Celana yang mulai longgar. Napas yang gak ngos-ngosan naik tangga. Tidur yang lebih nyenyak.",
+      "pill": "Kamu lagi di fase mana? Komen di bawah",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Timbangan naik pagi ini. Apa itu berarti gagal?",
+      "subline": "Hampir selalu tidak.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Nimbang tiap hari\" / \"Seminggu sekali\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Progress yang lambat tetap progress",
+      "subline": "Yang berhenti cuma yang berhenti.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Berat badan naik turun itu normal — tapi hampir semua orang lupa itu waktu lihat angka di timbangan pagi ini.\n\nWaktu mulai diet, yang kita bayangkan: garis turun mulus tiap minggu.\n\nYang benar-benar terjadi: naik sedikit, turun, stagnan dua minggu, naik lagi, turun lagi. Zigzag.\n\nDan itu normal. Berat badan dipengaruhi banyak hal di luar lemak — kadar air, asupan garam kemarin, isi pencernaan, siklus hormon, kualitas tidur, stres. Angka di timbangan itu bukan cuma \"seberapa gemuk kamu hari ini\".\n\nMasalahnya, banyak yang berhenti bukan karena programnya gagal — tapi karena melihat satu minggu stagnan lalu menyimpulkan semuanya sia-sia.\n\nKalau boleh kasih satu saran: jangan menilai dari satu titik, nilai dari arah. Lihat rata-rata sebulan, bukan angka pagi ini. Perhatikan juga hal yang gak muncul di timbangan — celana yang mulai longgar, napas yang gak ngos-ngosan naik tangga, tidur yang lebih nyenyak.\n\nProgress yang lambat tetap progress. Yang berhenti cuma yang berhenti.\n\nKamu lagi di fase mana sekarang? Komen di bawah.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau hubunganmu dengan makanan terasa membebani, itu layak dibicarakan dengan tenaga profesional — bukan tanda gagal.",
+  "hashtag_set": "C",
+  "hashtags": "#PerjalananDiet #ProgressDiet #DietBerkelanjutan #DefisitKalori #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #MindsetDiet #NutrisiIndonesia #DietTapiKenyang #SabarProses #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau membandingkan progress yang diharapkan dengan yang benar-benar terjadi.",
+    "Slide penjelasan bahwa grafik penurunan berat badan berbentuk zigzag, bukan garis lurus, dan itu normal.",
+    "Slide daftar faktor yang menggerakkan angka timbangan: kadar air, asupan garam, isi pencernaan dan hormon, serta tidur dan stres.",
+    "Slide penjelasan bahwa banyak orang berhenti bukan karena programnya gagal, melainkan karena menilai dari satu minggu stagnan.",
+    "Slide kutipan agar menilai progress dari arah, bukan dari satu titik.",
+    "Slide penutup menyebut tanda progress yang tidak muncul di timbangan seperti celana yang melonggar dan tidur yang lebih nyenyak."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-10-03",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

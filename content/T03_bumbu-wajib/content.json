@@ -1,0 +1,103 @@
+{
+  "kode": "T03",
+  "slug": "bumbu-wajib",
+  "kategori": "tips",
+  "judul": "5 Bumbu Wajib Masakan Diet",
+  "keyword_utama": "bumbu masakan diet biar tidak hambar",
+  "keyword_pendukung": [
+    "masakan diet hambar",
+    "bumbu rendah kalori",
+    "cara bikin masakan sehat gurih"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 6",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "TIPS PRAKTIS",
+      "headline": "5 bumbu yang bikin masakan diet gak hambar",
+      "subline": "Hambar itu bukan takdir makanan sehat. Biasanya cuma kurang lapisan rasa."
+    },
+    {
+      "type": "list",
+      "judul": "Lima yang paling sering diandalkan",
+      "items": [
+        {
+          "headline": "Bawang putih & bombay",
+          "body": "Ditumis sampai benar-benar kecoklatan. Karamelisasi alaminya bikin manis-gurih, jadi kecap bisa dipangkas."
+        },
+        {
+          "headline": "Kemiri / kelapa sangrai",
+          "body": "Disangrai, bukan digoreng. Rasa gurihnya berlipat, jadi jumlahnya bisa dikurangi."
+        },
+        {
+          "headline": "Rempah utuh",
+          "body": "Serai, daun jeruk, daun salam, lengkuas. Nol kalori, tapi inilah yang menutupi lubang rasa saat santan dikurangi."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "judul": "Dua yang paling sering dilupakan",
+      "items": [
+        {
+          "headline": "Asam: jeruk nipis / asam jawa",
+          "body": "Rasa asam menajamkan semua rasa lain. Masakan yang terasa kurang nendang sering bukan kurang garam — tapi kurang asam."
+        },
+        {
+          "headline": "Kaldu jamur / kaldu rendah sodium",
+          "body": "Umami tanpa lonjakan garam. Pakai sedikit, rasanya naik banyak."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Masakan diet hambar itu bukan takdir. Biasanya cuma kurang lapisan rasa.",
+      "attrib": "Saat lemak dipangkas, harus ada yang menggantikan perannya."
+    },
+    {
+      "type": "cta",
+      "headline": "Bumbu andalan kamu apa?",
+      "subtext": "Komen di bawah — aku penasaran yang belum masuk daftar ini.",
+      "pill": "Simpan buat belanja bumbu berikutnya",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Keluhan nomor satu soal masakan diet: hambar",
+      "subline": "Tapi itu jarang karena makanan sehat memang gak enak.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Masakan dietku hambar\" / \"Udah nemu triknya\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "Yang paling sering dilupakan: asam",
+      "subline": "Masakan yang terasa kurang nendang sering bukan kurang garam.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Bumbu masakan diet biar tidak hambar — ini keluhan nomor satu yang paling sering masuk.\n\nTapi menurutku itu jarang karena \"makanan sehat memang gak enak\". Biasanya karena saat lemak dipangkas, gak ada yang menggantikan lapisan rasanya.\n\n5 bumbu ini yang paling sering aku andalkan:\n\n1. Bawang putih & bombay — ditumis sampai benar-benar kecoklatan. Karamelisasi alaminya bikin manis-gurih, jadi kecap bisa dipangkas.\n\n2. Kemiri / kelapa sangrai — disangrai dulu, bukan digoreng. Rasa gurihnya berlipat, jadi jumlahnya bisa dikurangi tapi rasanya tetap.\n\n3. Rempah utuh — serai, daun jeruk, daun salam, lengkuas. Nol kalori, tapi inilah yang menutupi \"lubang\" rasa saat santan dikurangi.\n\n4. Asam — jeruk nipis atau asam jawa. Ini yang paling sering dilupakan. Masakan yang terasa \"kurang nendang\" sering bukan kurang garam, tapi kurang asam.\n\n5. Kaldu jamur / kaldu rendah sodium — umami tanpa lonjakan garam.\n\nMasakan diet hambar itu bukan takdir. Biasanya cuma kurang lapisan rasa.\n\nBumbu andalan kamu apa? Komen di bawah.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "B",
+  "hashtags": "#BumbuMasak #TipsMasak #MasakanDiet #ResepDietEnak #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #TipsSehat #MasakanIndonesia #DietTapiKenyang #MasakSendiri #NutrisiIndonesia #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau berjudul lima bumbu yang membuat masakan diet tidak hambar.",
+    "Slide daftar tiga bumbu pertama: bawang putih dan bombay, kemiri atau kelapa sangrai, dan rempah utuh.",
+    "Slide daftar dua bumbu yang sering dilupakan: bahan asam seperti jeruk nipis, dan kaldu jamur rendah sodium.",
+    "Slide kutipan bahwa masakan diet hambar biasanya hanya kurang lapisan rasa, bukan takdir makanan sehat.",
+    "Slide penutup menanyakan bumbu andalan pembaca."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-10-12",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "kode": "R03",
+  "slug": "ayam-goreng-kfc",
+  "kategori": "resep",
+  "judul": "Ayam Goreng Krispi Diet — 230 kkal",
+  "keyword_utama": "resep ayam goreng krispi rendah kalori",
+  "keyword_pendukung": [
+    "ayam goreng air fryer",
+    "kalori ayam goreng krispi",
+    "menu diet tinggi protein"
+  ],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R03_ayam-goreng-kfc/brief/Paket-Konten-IG-Ayam-Goreng-KFC-Diet.md",
+  "disclosure_ai": true,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Ayam goreng ini 230 kkal",
+      "subline": "Versi cepat saji: ±400 kkal. Yang diubah cuma cara masaknya.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "230 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Ayam goreng cepat saji vs versi diet",
+      "kolom": [
+        "Biasa",
+        "Diet"
+      ],
+      "rows": [
+        {
+          "label": "Kalori",
+          "biasa": "±400 kkal",
+          "diet": "±230 kkal"
+        },
+        {
+          "label": "Lemak",
+          "biasa": "25 g",
+          "diet": "6 g"
+        },
+        {
+          "label": "Protein",
+          "biasa": "24 g",
+          "diet": "27 g"
+        },
+        {
+          "label": "Serat",
+          "biasa": "1 g",
+          "diet": "1.5 g"
+        },
+        {
+          "label": "Gula",
+          "biasa": "1.5 g",
+          "diet": "1 g"
+        },
+        {
+          "label": "Garam",
+          "biasa": "±650 mg",
+          "diet": "±480 mg"
+        }
+      ],
+      "catatan": "Per potong ±130 g, dari resep untuk 4 potong. Pembanding: ayam goreng krispi cepat saji yang dideep-fry dengan kulit. Angka estimasi — bisa bervariasi tergantung merek bahan, ukuran potongan, dan tebal lapisan tepung."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Yang diganti cuma ini",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Ayam berkulit** → dada/paha fillet tanpa kulit",
+        "**Buttermilk full fat** → susu rendah lemak + perasan lemon",
+        "**Telur utuh** → putih telur sebagai binder",
+        "**Double breading tebal** → satu lapis tipis, dimasak di air fryer"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Rendam ayam dalam susu rendah lemak, lemon, garam & separuh bumbu rempah, minimal 30 menit.",
+        "Campur tepung terigu dengan sisa racikan 11 rempah kering.",
+        "Celup ayam ke putih telur, gulingkan ke tepung berbumbu, lalu ke tepung panir tipis.",
+        "Semprot tipis dengan cooking spray sampai permukaannya rata.",
+        "Air fryer 190°C, 18-20 menit, balik di menit ke-10; pastikan suhu dalam 74°C."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = 1 potong ±130 g",
+      "items": [
+        {
+          "label": "Protein",
+          "value": 27,
+          "unit": " g",
+          "pct": 100,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 17,
+          "unit": " g",
+          "pct": 63
+        },
+        {
+          "label": "Lemak",
+          "value": 6,
+          "unit": " g",
+          "pct": 22
+        },
+        {
+          "label": "Serat",
+          "value": 1.5,
+          "unit": " g",
+          "pct": 6
+        },
+        {
+          "label": "Gula",
+          "value": 1,
+          "unit": " g",
+          "pct": 4
+        },
+        {
+          "label": "Garam",
+          "value": 480,
+          "unit": " mg",
+          "pct": 48
+        }
+      ],
+      "catatan": "Kalori ±230 kkal per potong. Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Ayam krispi atau ayam bakar buat menu minggu ini?",
+      "subtext": "Komen di bawah — aku baca satu-satu.",
+      "pill": "Simpan dulu buat dimasak nanti",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Resep ini diracik supaya tetap krispi dan gurih rempah; belum diuji dapur."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "Ayam goreng krispi 230 kkal, tanpa minyak rendam",
+      "subline": "Kuncinya di marinasi dan tebal lapisan tepungnya.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Tim ayam krispi\" / \"Tim ayam bakar\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Satu lapis tepung tipis, bukan double-dip",
+      "subline": "Putih telur sebagai binder, lalu tepung berbumbu dan panir tipis sebelum masuk air fryer.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Resep lengkapnya sudah naik",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+  "caption": "Resep ayam goreng krispi rendah kalori ini cuma 230 kkal per potong — dimasak di air fryer, bukan direndam minyak.\n\nAyam goreng krispi cepat saji biasanya menembus ±400 kkal per potong karena tiga hal: dideep-fry dalam minyak panas, kulitnya dibiarkan menempel, dan lapisan tepungnya tebal berlapis sehingga makin banyak minyak yang terserap. Yang diubah di sini cuma metode masak, kulit ayamnya, dan tebal breading-nya.\n\nPer potong (±130 g):\n• Kalori 230 kkal\n• Protein 27 g\n• Karbohidrat 17 g\n• Lemak 6 g\n• Serat 1.5 g\n• Gula 1 g\n• Garam (sodium) 480 mg\n\nCara masaknya:\n1. Campur 100 ml susu rendah lemak, 1 sdm air perasan lemon, ¼ sdt garam, dan separuh racikan 11 rempah. Rendam 400 g dada/paha fillet tanpa kulit minimal 30 menit (idealnya 2 jam sampai semalam di kulkas).\n2. Campur 40 g tepung terigu dengan sisa racikan rempahnya.\n3. Angkat ayam, celup ke 60 g putih telur, gulingkan ke tepung berbumbu, lalu ke 32 g tepung panir atau cornflakes yang dihancurkan — satu lapis tipis saja.\n4. Semprot tipis dengan cooking spray sampai permukaannya rata.\n5. Air fryer 190°C selama 18-20 menit, balik di menit ke-10. Pastikan suhu bagian dalam ayam mencapai 74°C sebelum disajikan.\n\nRacikan 11 rempahnya: 1 sdt paprika bubuk, 1 sdt bawang putih bubuk, 1 sdt bawang bombay bubuk, ½ sdt thyme, ½ sdt oregano, ½ sdt basil, ½ sdt celery salt, ½ sdt merica hitam, ¼ sdt merica putih, ¼ sdt mustard bubuk, ¼ sdt jahe bubuk.\n\nPro-tip: jangan skip marinasi susu + lemon. Asam dari lemon membantu melembutkan serat dagingnya, sementara susu bikin bumbu menempel tanpa perlu telur utuh atau lapisan tepung tebal — ini yang menjaga ayam tetap juicy walau dimasak tanpa minyak rendam.\n\nResep ini terinspirasi dari cita rasa ayam goreng krispi berbumbu rempah ala KFC; bukan resep resmi, bukan afiliasi, dan bukan bentuk kerja sama apa pun dengan pemilik merek tersebut.\n\nAyam krispi atau ayam bakar buat menu minggu ini? Komen di bawah, atau simpan dulu buat dimasak nanti.\n\nAngka nutrisi adalah estimasi per potong dari resep untuk 4 potong, dan bisa bervariasi tergantung merek bahan, ukuran potongan, dan tebal lapisan tepung. Resep ini belum diuji dapur — targetnya lapisan tepung yang tetap krispi dan bumbu rempah yang terasa, bukan klaim.\n\nCatatan alergen: mengandung gluten (tepung terigu & tepung panir) dan dairy (susu rendah lemak). Versi gluten-free bisa pakai tepung beras/maizena; versi non-dairy bisa pakai susu oat atau almond.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu, sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+  "hashtag_set": "A",
+  "hashtags": "#AyamGorengDiet #MenuDietIndonesia #DietTanpaTersiksa #ResepDietEnak #CleanEatingIndonesia #MenuSehatHarian #DefisitKalori #MakanEnakTetapDiet #ResepAyamSehat #HealthyLifestyleID #DietTapiKenyang #MakananSehatEnak #FitFamIndonesia #ResepAirFryer",
+  "alt_text": [
+    "Cover carousel resep ayam goreng krispi rendah kalori dengan badge 230 kkal dan foto potongan ayam berlapis tepung rempah.",
+    "Tabel perbandingan nutrisi ayam goreng cepat saji versus versi diet: kalori, lemak, protein, serat, gula, dan garam per potong.",
+    "Foto flatlay bahan mentah ayam goreng diet: fillet ayam tanpa kulit, susu rendah lemak, lemon, putih telur, tepung, dan bumbu rempah kering, dengan label tiap bahan.",
+    "Foto proses memasak ayam goreng diet disertai lima langkah bernomor, dari marinasi susu-lemon sampai masuk air fryer.",
+    "Diagram batang rincian gizi per potong ayam goreng diet: protein 27 gram, karbohidrat 17 gram, lemak 6 gram, serat 1,5 gram, gula 1 gram, garam 480 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih ayam krispi atau ayam bakar."
+  ],
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of four pieces of air-fried crispy chicken with a thin golden herb-speckled crust on a matte ceramic plate, one piece torn open showing juicy white meat inside, a lemon wedge and a few sprigs of fresh parsley beside them, a small bowl of yogurt dipping sauce at the edge"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients for crispy chicken arranged neatly: skinless boneless chicken breast and thigh fillets, a small jug of low-fat milk, a halved lemon, a small bowl of egg whites, a bowl of flour, a bowl of crushed cornflakes, and small dishes of paprika, garlic powder, onion powder, dried thyme, dried oregano, dried basil, black pepper and ground mustard"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of a chicken fillet being coated in seasoned flour and crushed cornflakes in a shallow bowl, a bowl of milk-lemon marinade and an open air fryer basket with two coated pieces already inside beside it"
+    }
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-30",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

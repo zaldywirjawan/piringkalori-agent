@@ -1,0 +1,99 @@
+{
+  "kode": "T01",
+  "slug": "label-gizi",
+  "kategori": "tips",
+  "judul": "Cara Baca Label Gizi",
+  "keyword_utama": "cara baca label gizi",
+  "keyword_pendukung": [
+    "takaran saji kemasan",
+    "cek gula produk kemasan",
+    "urutan komposisi bahan"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 4",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "TIPS PRAKTIS",
+      "headline": "Cara baca label gizi",
+      "subline": "Biar gak ketipu kemasan yang mengaku sehat."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Cek nomor 1",
+      "judul": "\"Per sajian\" dulu, sebelum apa pun",
+      "body": [
+        "Ini jebakan paling umum. Tertulis 120 kkal di depan, tapi di bawahnya kecil-kecil: \"Sajian per kemasan: 3\".",
+        "Kamu habiskan sebungkus = **360 kkal**, bukan 120."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Cek nomor 2",
+      "judul": "Gula dan natrium",
+      "body": [
+        "Dua angka ini paling sering diam-diam tinggi justru di produk yang dilabeli sehat.",
+        "Granola, sereal, minuman kemasan, saus salad — cek gulanya, sering bikin kaget."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Cek nomor 3",
+      "judul": "Urutan komposisi = urutan jumlah",
+      "body": [
+        "Bahan disusun dari yang **paling banyak**.",
+        "Kalau gula muncul di 3 besar, produk itu memang manis — apa pun klaim di depan kemasannya."
+      ]
+    },
+    {
+      "type": "quote",
+      "text": "Klaim di depan kemasan itu marketing. Label di belakang itu data.",
+      "attrib": "Dan cuma satu dari keduanya yang wajib jujur."
+    },
+    {
+      "type": "cta",
+      "headline": "Simpan buat dibuka pas belanja",
+      "subtext": "Kamu pernah kaget lihat label produk apa? Komen di bawah.",
+      "pill": "Simpan sekarang, pakai nanti di supermarket",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "Tertulis 120 kkal. Yang kamu makan 360 kkal.",
+      "subline": "Satu baris kecil di label yang paling sering terlewat.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Selalu cek label\" / \"Jarang cek\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "3 hal yang aku cek tiap belanja",
+      "subline": "Takaran saji, gula & natrium, lalu urutan komposisi.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Cara baca label gizi ini skill yang menurutku paling cepat kelihatan hasilnya — dan gak butuh olahraga atau masak apa pun.\n\n3 hal yang aku cek tiap belanja:\n\n1. \"Per sajian\" dulu, sebelum apa pun.\nIni jebakan paling umum. Tertulis 120 kkal di depan, tapi di bawahnya kecil-kecil: \"Sajian per kemasan: 3\". Kamu habisin sebungkus, itu 360 kkal.\n\n2. Gula dan natrium.\nDua angka ini paling sering diam-diam tinggi justru di produk yang dilabeli \"sehat\". Granola, sereal, minuman kemasan, saus salad — cek gulanya, sering bikin kaget.\n\n3. Urutan komposisi = urutan jumlah.\nBahan disusun dari yang paling banyak. Kalau gula muncul di 3 besar, produk itu memang manis, apa pun klaim di depan kemasannya.\n\nIntinya: klaim di depan kemasan itu marketing, label di belakang itu data.\n\nSimpan ini biar bisa dibuka pas lagi di supermarket.\n\nKamu pernah kaget lihat label produk apa? Komen di bawah.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "B",
+  "hashtags": "#LabelGizi #TipsDiet #BelanjaSehat #EdukasiGizi #DefisitKalori #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #GiziSeimbang #NutrisiIndonesia #TipsSehat #BacaLabel #DietTapiKenyang #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau berjudul cara baca label gizi agar tidak tertipu klaim kemasan sehat.",
+    "Slide tips pertama: mengecek takaran saji karena satu kemasan sering berisi lebih dari satu sajian.",
+    "Slide tips kedua: memeriksa kandungan gula dan natrium yang sering tinggi pada produk berlabel sehat.",
+    "Slide tips ketiga: urutan komposisi bahan menunjukkan urutan jumlah, sehingga gula di tiga besar berarti produk memang manis.",
+    "Slide kutipan bahwa klaim di depan kemasan adalah marketing sedangkan label di belakang adalah data.",
+    "Slide penutup mengajak pembaca menyimpan konten untuk dibuka saat berbelanja."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-09-19",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

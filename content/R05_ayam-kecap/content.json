@@ -1,0 +1,205 @@
+{
+  "kode": "R05",
+  "slug": "ayam-kecap",
+  "kategori": "resep",
+  "judul": "Ayam Kecap Diet — 200 kkal",
+  "keyword_utama": "resep ayam kecap rendah kalori",
+  "keyword_pendukung": [
+    "ayam kecap diet",
+    "kalori ayam kecap",
+    "menu rumahan rendah kalori"
+  ],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R05_ayam-kecap/brief/Paket-Konten-IG-Ayam-Kecap-Diet.md",
+  "disclosure_ai": true,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Ayam kecap ini cuma 200 kkal",
+      "subline": "Versi biasa: ±380 kkal. Kecapnya cukup ½ sendok makan per porsi.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "200 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Ayam kecap biasa vs versi diet",
+      "kolom": [
+        "Biasa",
+        "Diet"
+      ],
+      "rows": [
+        {
+          "label": "Kalori",
+          "biasa": "±380 kkal",
+          "diet": "±200 kkal"
+        },
+        {
+          "label": "Protein",
+          "biasa": "22 g",
+          "diet": "26 g"
+        },
+        {
+          "label": "Lemak",
+          "biasa": "22 g",
+          "diet": "5 g"
+        },
+        {
+          "label": "Gula",
+          "biasa": "18 g",
+          "diet": "7 g"
+        },
+        {
+          "label": "Serat",
+          "biasa": "0.5 g",
+          "diet": "1 g"
+        },
+        {
+          "label": "Garam (sodium)",
+          "biasa": "±800 mg",
+          "diet": "±420 mg"
+        }
+      ],
+      "catatan": "Per porsi 150 g (±1 potong ayam + saus, belum termasuk nasi), dari resep untuk 4 porsi. Sumber: TKPI Kemenkes RI & USDA FoodData Central. Angka estimasi — bisa bervariasi tergantung merek bahan, terutama kecap manis yang kadar gulanya beda antar merek."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Yang diubah cuma ini",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Ayam digoreng dulu** → dada tanpa kulit, langsung ditumis",
+        "**Kecap dituang bebas** → ½ sdm per porsi, ditakar",
+        "**Manis dari gula tambahan** → dari bawang bombay yang dicoklatkan",
+        "**Kuah dikentalkan tepung** → dikentalkan dengan reduksi"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Tumis bawang bombay dengan 2 sdt minyak, api sedang-kecil, 7-10 menit sampai benar-benar kecoklatan.",
+        "Masukkan bawang putih cincang dan jahe memar, tumis 1 menit sampai harum.",
+        "Masukkan dada ayam, aduk sampai permukaannya berubah warna — tidak digoreng terpisah.",
+        "Tuang air/kaldu rendah sodium, lalu kecap manis, saus tiram, merica, kaldu jamur. Aduk rata.",
+        "Masak tanpa tutup 10-12 menit sampai kuah menyusut dan mengental sendiri, taburi daun bawang."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = 150 g (±1 potong ayam + saus, belum termasuk nasi)",
+      "items": [
+        {
+          "label": "Protein",
+          "value": 26,
+          "unit": " g",
+          "pct": 100,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 11,
+          "unit": " g",
+          "pct": 42.3
+        },
+        {
+          "label": "Lemak",
+          "value": 5,
+          "unit": " g",
+          "pct": 19.2
+        },
+        {
+          "label": "Gula",
+          "value": 7,
+          "unit": " g",
+          "pct": 26.9
+        },
+        {
+          "label": "Serat",
+          "value": 1,
+          "unit": " g",
+          "pct": 3.8
+        },
+        {
+          "label": "Garam (sodium)",
+          "value": 420,
+          "unit": " mg",
+          "pct": 42.0
+        }
+      ],
+      "catatan": "Kalori ±200 kkal per porsi. **Garam 420 mg** — separuhnya datang dari saus tiram (±250 mg per porsi). Mau lebih rendah? Pakai air atau kaldu rendah sodium, kurangi saus tiram jadi ½ sdt, dan lewati kaldu jamur. Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Kamu biasanya pakai kecap merek apa?",
+      "subtext": "Komen di bawah — aku baca satu-satu.",
+      "pill": "Simpan buat masak malam ini",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Resep ini belum diuji dapur — target rasanya manis-gurih dari karamelisasi bawang."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "3 sdm kecap manis = berapa gram gula?",
+      "subline": "Tebak dulu, jawabannya ada di postingan nanti pagi.",
+      "sticker_hint": "STICKER MANUAL: quiz sticker 4 opsi — \"5 g\" / \"10 g\" / \"20 g\" / \"30 g\" (jawaban: ±20 g)",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Manisnya dari bawang, bukan dari gula",
+      "subline": "Bawang bombay ditumis 7-10 menit sampai benar-benar coklat, baru ayamnya masuk.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Resep lengkapnya sudah naik",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro dan garamnya.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+  "caption": "Resep ayam kecap rendah kalori ini cuma 200 kkal per porsi — menu rumahan yang bisa kamu masak malam ini juga.\n\nAyam kecap biasa bisa menembus ±380 kkal per porsi karena tiga hal: ayamnya digoreng dulu sebelum dibumbui, kecap manis dituang bebas, dan kulit ayamnya dibiarkan. Yang paling sering luput: gulanya bisa 18 g cuma dari kecapnya saja.\n\nPer porsi (150 g, belum termasuk nasi):\n• Kalori 200 kkal\n• Protein 26 g\n• Karbohidrat 11 g\n• Lemak 5 g\n• Serat 1 g\n• Gula 7 g\n• Garam (sodium) 420 mg\n\nCara masaknya (untuk 4 porsi):\n1. Panaskan 2 sdt minyak, tumis 120 g bawang bombay iris dengan api sedang-kecil 7-10 menit sampai benar-benar kecoklatan — jangan buru-buru, di sinilah rasa manis alaminya keluar.\n2. Masukkan 4 siung bawang putih cincang dan 2 cm jahe memar, tumis 1 menit sampai harum.\n3. Masukkan 480 g dada ayam tanpa kulit yang sudah dipotong kotak, aduk sampai permukaannya berubah warna. Tidak perlu digoreng terpisah.\n4. Tuang 200 ml air atau kaldu ayam rendah sodium, lalu 2 sdm kecap manis, 4 sdt saus tiram, ½ sdt merica, ½ sdt kaldu jamur.\n5. Masak dengan api sedang tanpa tutup 10-12 menit sampai kuah menyusut dan mengental sendiri — pengentalan datang dari reduksi, bukan tepung atau gula tambahan. Taburi daun bawang.\n\nSoal garam, ini jujur-jujuran: 420 mg sodium per porsi itu tidak rendah, dan separuhnya datang dari saus tiram (±250 mg). Kalau kamu sedang membatasi garam, tiga hal ini menurunkannya: pakai air biasa atau kaldu ayam rendah sodium, kurangi saus tiram jadi ½ sdt, dan lewati kaldu jamurnya. Rasa gurihnya sudah ditopang bawang bombay yang dicoklatkan.\n\nPro-tip: tumis bawang bombay sampai benar-benar coklat, jangan cuma layu. Karamelisasi alaminya menghasilkan rasa manis-gurih yang dalam, jadi kecap manis bisa dipangkas ke ½ sdm per porsi tanpa saus terasa hambar.\n\nKamu biasanya pakai kecap merek apa? Komen di bawah, atau simpan dulu buat masak malam ini.\n\nAngka nutrisi adalah estimasi per porsi dari resep untuk 4 porsi, dan bisa bervariasi tergantung merek bahan — terutama kecap manis, yang kadar gulanya berbeda antar merek. Resep ini belum diuji dapur; target rasanya manis-gurih seimbang, bukan klaim.\n\nCatatan alergen: mengandung gluten & kedelai (kecap manis, saus tiram) — untuk bebas gluten pakai tamari. Mengandung seafood (saus tiram) — bisa diganti kecap asin rendah sodium.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu (termasuk hipertensi atau pembatasan garam), sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+  "hashtag_set": "A",
+  "hashtags": "#AyamKecap #ResepAyamKecap #AyamKecapDiet #MenuDietIndonesia #ResepDietEnak #MasakanRumahan #MenuSehatHarian #DefisitKalori #ResepPraktis #MakanEnakTetapDiet #ResepAyamSehat #HealthyLifestyleID #DietTapiKenyang #MasakSendiri #MakananSehatEnak #FitFamIndonesia",
+  "alt_text": [
+    "Cover carousel resep ayam kecap rendah kalori dengan badge 200 kkal dan foto ayam kecap mengilap berbalut saus.",
+    "Tabel perbandingan nutrisi ayam kecap biasa versus versi diet: kalori, protein, lemak, gula, serat, dan garam per porsi.",
+    "Foto flatlay bahan mentah ayam kecap diet: dada ayam tanpa kulit, bawang bombay, bawang putih, jahe, kecap manis, dan saus tiram, dengan label tiap bahan.",
+    "Foto proses memasak ayam kecap diet disertai lima langkah bernomor, dari menumis bawang bombay sampai mereduksi saus.",
+    "Diagram batang rincian gizi per porsi ayam kecap diet: protein 26 gram, karbohidrat 11 gram, lemak 5 gram, gula 7 gram, serat 1 gram, garam 420 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar menyebutkan merek kecap yang biasa dipakai."
+  ],
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of Indonesian ayam kecap on a matte ceramic plate: glossy dark soy-braised skinless chicken breast pieces coated in a thick reduced sauce, caramelized onion slices folded through the sauce, scattered sliced spring onion and fried shallots on top, a small bowl of steamed rice and a few cucumber slices beside it"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients for ayam kecap arranged neatly: cubed skinless chicken breast, sliced onion, peeled garlic cloves, a knob of fresh ginger, a small dish of sweet soy sauce, a small dish of oyster sauce, ground pepper and whole spring onions"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of ayam kecap cooking in a shallow pan, deeply browned caramelized onion strands mixed with chicken pieces, dark sauce reduced until thick and glossy, gentle steam rising"
+    }
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-10",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "kode": "Q01",
+  "slug": "qna-perdana",
+  "kategori": "qna",
+  "judul": "Q&A Perdana — 3 Pertanyaan Paling Sering Masuk",
+  "keyword_utama": "pertanyaan diet yang paling sering ditanya",
+  "keyword_pendukung": [
+    "harus olahraga untuk diet",
+    "boleh makan gorengan saat diet",
+    "sudah defisit tapi berat tidak turun"
+  ],
+  "sumber_brief": "04_OPERASIONAL/Bank-Konten-Non-Resep-Piringkalori.md — Konten 9",
+  "disclosure_ai": false,
+  "carousel": [
+    {
+      "type": "cover",
+      "badge_kategori": "TANYA JAWAB",
+      "headline": "3 pertanyaan yang paling sering masuk",
+      "subline": "Aku jawab sejujurnya, termasuk yang jawabannya kurang enak didengar."
+    },
+    {
+      "type": "text",
+      "eyebrow": "Pertanyaan 1",
+      "judul": "\"Harus olahraga juga gak?\"",
+      "body": [
+        "Untuk turun berat badan, **pola makan** pengaruhnya paling besar.",
+        "Olahraga tetap penting — jantung, massa otot, mood, tidur — tapi jujur saja: jauh lebih gampang tidak makan 300 kalori daripada membakar 300 kalori."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Pertanyaan 2",
+      "judul": "\"Boleh makan gorengan?\"",
+      "body": [
+        "Boleh, kalau masuk hitungan harianmu.",
+        "Tidak ada satu makanan yang otomatis membatalkan diet. **Yang menentukan hasil adalah pola berminggu-minggu**, bukan satu porsi di hari Sabtu."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Pertanyaan 3",
+      "judul": "\"Sudah defisit tapi kok gak turun?\"",
+      "body": [
+        "Kemungkinan terbesarnya: defisitnya tidak sebesar yang dikira. Minyak masak, cemilan sambil kerja, minuman manis, porsi yang cuma dikira-kira — semua sering luput dihitung.",
+        "Coba catat **semua** yang masuk mulut selama 3 hari, tanpa kecuali. Biasanya jawabannya ketemu di situ."
+      ]
+    },
+    {
+      "type": "text",
+      "eyebrow": "Kalau sudah dicatat teliti dan tetap tidak berubah",
+      "judul": "Itu saatnya periksa ke profesional",
+      "body": [
+        "Kadang ada faktor lain yang perlu diperiksa dokter atau ahli gizi.",
+        "Bukan berarti kamu kurang disiplin."
+      ]
+    },
+    {
+      "type": "cta",
+      "headline": "Punya pertanyaan lain?",
+      "subtext": "Tulis di komentar — bakal aku bahas di Q&A berikutnya.",
+      "pill": "Simpan buat dibaca ulang",
+      "footer": "Konten edukatif, bukan pengganti saran medis."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "Nanti di feed",
+      "headline": "\"Sudah defisit tapi kok berat gak turun?\"",
+      "subline": "Ini pertanyaan yang paling sering masuk. Jawabannya di feed nanti.",
+      "sticker_hint": "STICKER MANUAL: sticker pertanyaan (question box) — \"Tanya apa aja soal diet\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "repost",
+      "style": "krem",
+      "eyebrow": "Sudah tayang",
+      "headline": "3 pertanyaan, dijawab sejujurnya",
+      "subline": "Termasuk kenapa olahraga bukan bagian terbesar dari jawabannya.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk baca"
+    }
+  ],
+  "caption": "Pertanyaan diet yang paling sering ditanya, aku kumpulkan dan jawab sejujurnya di sini.\n\n\"Harus olahraga juga gak?\"\nUntuk turun berat badan, pola makan pengaruhnya paling besar. Olahraga tetap penting — jantung, massa otot, mood, tidur — tapi jujur aja: jauh lebih gampang gak makan 300 kalori daripada membakar 300 kalori.\n\n\"Boleh makan gorengan gak?\"\nBoleh, kalau masuk hitungan harianmu. Gak ada satu makanan yang otomatis \"membatalkan\" diet. Yang menentukan hasil adalah pola berminggu-minggu, bukan satu porsi di hari Sabtu.\n\n\"Kenapa udah defisit tapi berat gak turun?\"\nIni yang paling sering ditanya. Kemungkinan terbesarnya: defisitnya gak sebesar yang dikira. Minyak masak, cemilan sambil kerja, minuman manis, porsi yang cuma dikira-kira — semua ini sering luput.\n\nCoba catat semua yang masuk mulut selama 3 hari, tanpa kecuali. Biasanya jawabannya ketemu di situ.\n\nKalau sudah dicatat teliti dan tetap gak ada perubahan selama beberapa minggu, itu saatnya konsultasi ke dokter atau ahli gizi — kadang ada faktor lain yang perlu diperiksa.\n\nPunya pertanyaan lain? Tulis di komentar, bakal aku bahas di Q&A berikutnya.\n\n⚠️ Konten edukatif, bukan pengganti saran medis.",
+  "hashtag_set": "C",
+  "hashtags": "#TanyaJawab #QnADiet #TipsDiet #DefisitKalori #EdukasiGizi #MenuDietIndonesia #HealthyLifestyleID #DietTanpaTersiksa #GiziSeimbang #NutrisiIndonesia #DietTapiKenyang #BelajarGizi #FitFamIndonesia",
+  "alt_text": [
+    "Slide sampul hijau berjudul tiga pertanyaan diet yang paling sering masuk.",
+    "Slide jawaban pertanyaan pertama tentang apakah olahraga wajib, dengan penjelasan bahwa pola makan pengaruhnya paling besar.",
+    "Slide jawaban pertanyaan kedua tentang boleh tidaknya makan gorengan saat diet.",
+    "Slide jawaban pertanyaan ketiga tentang penyebab berat badan tidak turun meski merasa sudah defisit kalori.",
+    "Slide anjuran memeriksakan diri ke dokter atau ahli gizi bila pencatatan sudah teliti namun tetap tidak ada perubahan.",
+    "Slide penutup mengajak pembaca menuliskan pertanyaan untuk sesi tanya jawab berikutnya."
+  ],
+  "images": [],
+  "jadwal": {
+    "tanggal": "2026-10-14",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

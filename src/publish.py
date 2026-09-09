@@ -202,11 +202,22 @@ HANDLERS = {"feed_carousel": post_carousel, "feed_single": post_single, "story":
 
 
 def caption_of(doc: dict) -> str:
+    """Caption + disclosure AI + hashtag.
+
+    Hashtag ditempel di akhir caption, bukan sebagai komentar pertama.
+    Alasannya: memposting komentar lewat API butuh izin tambahan
+    `instagram_manage_comments`, dan tanpa izin itu Meta menolak dengan
+    error (#10). Menaruhnya di caption selalu berhasil dan tidak
+    memerlukan wewenang tambahan apa pun.
+    """
     cap = doc.get("caption", "")
     if doc.get("disclosure_ai"):
         cap += "\n\n" + json.loads(
             (ROOT / "brand" / "tokens.json").read_text(encoding="utf-8")
         )["disclosure_ai"]
+    tags = doc.get("hashtags", "").strip()
+    if tags:
+        cap += "\n\n.\n.\n.\n" + tags
     return cap
 
 
@@ -284,6 +295,7 @@ def main():
     if not a.dry_run and (not TOKEN or not IGID):
         sys.exit("IG_ACCESS_TOKEN / IG_BUSINESS_ACCOUNT_ID belum diisi. Lihat docs/SETUP.md.")
 
+    terbit = []
     for r in antre:
         kode, tipe = r["kode"], r.get("tipe_konten", "feed_carousel")
         print(f"\n→ {kode} ({tipe}) dijadwalkan {r['tanggal_posting']} {r['jam_posting']}")
@@ -302,25 +314,26 @@ def main():
             r.update(res, status="posted",
                      posted_at=dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M"), catatan="")
             print(f"   TAYANG — {res['permalink'] or res['media_id']}")
-
-            tags = doc.get("hashtags", "")
-            if tags and tipe != "story":
-                time.sleep(3)
-                try:
-                    api("POST", f"{res['media_id']}/comments", message=tags)
-                    print("   hashtag ditaruh di komentar pertama.")
-                except Exception as e:  # noqa: BLE001
-                    r["catatan"] = f"hashtag gagal: {e}"
-                    print(f"   hashtag GAGAL: {e}")
-
-            archive(kode, r, doc)
-            print(f"   diarsipkan ke archive/{dt.datetime.now(TZ):%Y-%m}/{kode}/")
+            terbit.append((kode, r, doc))
         except Exception as e:  # noqa: BLE001
             r["status"] = "failed"
             r["catatan"] = str(e)[:280]
             print(f"   GAGAL: {e}")
 
+    # Arsip dilakukan SETELAH semua baris diproses, bukan per baris.
+    # Kalau satu kode punya beberapa baris (mis. feed + story), mengarsipkan
+    # setelah baris pertama akan memindahkan foldernya dan membuat baris
+    # berikutnya gagal dengan "folder konten tidak ditemukan".
     if not a.dry_run:
+        menunggu = {"draft", "review", "approved"}
+        for kode, row, doc in terbit:
+            sisa = [x for x in rows if x["kode"] == kode and x.get("status") in menunggu]
+            if sisa:
+                print(f"\n{kode}: belum diarsipkan — masih ada "
+                      f"{len(sisa)} baris yang menunggu tayang.")
+                continue
+            archive(kode, row, doc)
+            print(f"\n{kode}: diarsipkan ke archive/{dt.datetime.now(TZ):%Y-%m}/{kode}/")
         write_cal(rows)
         print("\ncalendar.csv diperbarui.")
 

@@ -1,0 +1,205 @@
+{
+  "kode": "R02",
+  "slug": "soto-betawi",
+  "kategori": "resep",
+  "judul": "Soto Betawi Diet — 330 kkal",
+  "keyword_utama": "resep soto betawi rendah kalori",
+  "keyword_pendukung": [
+    "soto betawi diet",
+    "kalori soto betawi",
+    "menu diet khas betawi"
+  ],
+  "status_uji_dapur": "BELUM DIUJI",
+  "sumber_brief": "02_KONTEN/R02_soto-betawi/brief/Paket-Konten-IG-Soto-Betawi-H-Mamat-Diet.md",
+  "disclosure_ai": true,
+  "carousel": [
+    {
+      "type": "cover",
+      "headline": "Soto betawi ini 330 kkal",
+      "subline": "Versi warung: ±600 kkal. Yang diubah cuma kuahnya.",
+      "badge_kategori": "RESEP DIET",
+      "badge_kalori": "330 kkal",
+      "image": "img/hero.png"
+    },
+    {
+      "type": "compare",
+      "judul": "Soto betawi biasa vs versi diet",
+      "kolom": [
+        "Biasa",
+        "Diet"
+      ],
+      "rows": [
+        {
+          "label": "Kalori",
+          "biasa": "±600 kkal",
+          "diet": "±330 kkal"
+        },
+        {
+          "label": "Lemak",
+          "biasa": "38 g",
+          "diet": "14 g"
+        },
+        {
+          "label": "Protein",
+          "biasa": "24 g",
+          "diet": "28 g"
+        },
+        {
+          "label": "Serat",
+          "biasa": "1.5 g",
+          "diet": "2.5 g"
+        },
+        {
+          "label": "Gula",
+          "biasa": "6 g",
+          "diet": "5 g"
+        },
+        {
+          "label": "Garam",
+          "biasa": "±750 mg",
+          "diet": "±400 mg"
+        }
+      ],
+      "catatan": "Per porsi ±350 ml (±1 mangkuk saji), dari resep untuk 4 porsi. Angka estimasi — bisa bervariasi tergantung merek bahan, potongan daging, dan metode masak. Emping/kerupuk tidak dihitung di sini."
+    },
+    {
+      "type": "photo_callout",
+      "judul": "Yang diganti cuma ini",
+      "image": "img/bahan.png",
+      "callouts": [
+        "**Santan kental** → santan light",
+        "**Susu full cream** → susu evaporasi rendah lemak",
+        "**Sandung lamur berlemak** → lemaknya dibuang bersih",
+        "**Kemiri digoreng** → kemiri disangrai, porsinya dikurangi"
+      ]
+    },
+    {
+      "type": "steps",
+      "judul": "Cara masak",
+      "image": "img/proses.png",
+      "steps": [
+        "Rebus daging dengan serai & daun salam sampai empuk, saring kaldunya.",
+        "Sangrai kemiri tanpa minyak, haluskan bersama bumbu lain.",
+        "Tumis bumbu halus dengan ¼ sdt minyak sampai harum, ±5 menit.",
+        "Masukkan bumbu ke kaldu, tambahkan kentang, masak sampai empuk.",
+        "Tuang santan light & susu evaporasi, masukkan daging dan tomat."
+      ]
+    },
+    {
+      "type": "macros",
+      "judul": "Rincian per porsi",
+      "porsi": "1 porsi = ±350 ml (±1 mangkuk saji)",
+      "items": [
+        {
+          "label": "Protein",
+          "value": 28,
+          "unit": " g",
+          "pct": 100,
+          "highlight": true
+        },
+        {
+          "label": "Karbohidrat",
+          "value": 18,
+          "unit": " g",
+          "pct": 64
+        },
+        {
+          "label": "Lemak",
+          "value": 14,
+          "unit": " g",
+          "pct": 50
+        },
+        {
+          "label": "Gula",
+          "value": 5,
+          "unit": " g",
+          "pct": 18
+        },
+        {
+          "label": "Serat",
+          "value": 2.5,
+          "unit": " g",
+          "pct": 12
+        },
+        {
+          "label": "Garam",
+          "value": 400,
+          "unit": " mg",
+          "pct": 40
+        }
+      ],
+      "catatan": "Kalori ±330 kkal per porsi. Angka nutrisi adalah estimasi, bukan hasil uji laboratorium."
+    },
+    {
+      "type": "cta",
+      "headline": "Soto betawi versi kamu, original atau diet?",
+      "subtext": "Komen di bawah — aku baca satu-satu.",
+      "pill": "Simpan dulu buat dimasak akhir pekan",
+      "footer": "Konten edukatif, bukan pengganti saran medis. Resep ini diracik untuk tetap creamy dan gurih; belum diuji dapur."
+    }
+  ],
+  "story": [
+    {
+      "type": "teaser",
+      "style": "sage",
+      "eyebrow": "2 jam lagi di feed",
+      "headline": "Soto betawi 330 kkal — kuahnya masih creamy?",
+      "subline": "Jawabannya ada di dua bahan yang diganti.",
+      "sticker_hint": "STICKER MANUAL: poll 2 opsi — \"Tim soto betawi\" / \"Tim soto ayam\"",
+      "cta": "sebentar lagi"
+    },
+    {
+      "type": "process",
+      "style": "krem",
+      "eyebrow": "30 menit lagi",
+      "headline": "Kuncinya kemiri disangrai, bukan santan kental",
+      "subline": "Kemiri disangrai tanpa minyak dulu, baru dihaluskan bersama bumbu.",
+      "image": "img/proses.png",
+      "sticker_hint": "STICKER MANUAL: countdown sticker ke jam posting feed",
+      "cta": "tunggu ya"
+    },
+    {
+      "type": "repost",
+      "style": "sage",
+      "eyebrow": "Sudah tayang",
+      "headline": "Resep lengkapnya sudah naik",
+      "subline": "6 slide: perbandingan gizi, bahan, cara masak, sampai rincian makro.",
+      "sticker_hint": "STICKER MANUAL: sticker \"Lihat postingan\" yang mengarah ke feed post",
+      "cta": "ketuk untuk lihat"
+    }
+  ],
+  "caption": "Resep soto betawi rendah kalori ini cuma 330 kkal per mangkuk — kuahnya tetap diracik supaya creamy dan gurih.\n\nSoto betawi warung biasanya menembus ±600 kkal per porsi karena tiga hal: santan kental dipadu susu full cream, potongan daging berlemak tebal (kadang plus jeroan), dan kemiri dalam jumlah banyak untuk mengentalkan kuah. Yang diubah di sini cuma bagian kuah dan potongan dagingnya.\n\nPer porsi (±350 ml):\n• Kalori 330 kkal\n• Protein 28 g\n• Karbohidrat 18 g\n• Lemak 14 g\n• Serat 2.5 g\n• Gula 5 g\n• Garam (sodium) 400 mg\n\nCara masaknya:\n1. Rebus daging sandung lamur (lemak dibuang bersih) bersama serai & daun salam sampai empuk — pakai panci presto biar cepat. Saring, simpan kaldunya.\n2. Sangrai kemiri tanpa minyak sampai sedikit kecoklatan, lalu haluskan bersama bawang merah, bawang putih, kunyit, jahe, lengkuas, dan ketumbar.\n3. Tumis bumbu halus dengan ¼ sdt minyak (atau tanpa minyak di teflon anti lengket) sampai harum, ±5 menit.\n4. Masukkan bumbu ke kaldu, tambahkan kentang, masak sampai kentang empuk.\n5. Tuang santan light & susu evaporasi rendah lemak, aduk pelan dengan api kecil. Masukkan daging dan tomat, masak sampai bumbu meresap.\n\nSajikan dengan bawang goreng air fryer, perasan jeruk limau, sambal dan acar di samping — bukan dicampur ke kuah, supaya kalori per mangkuknya tetap terbaca jelas. Emping/kerupuk opsional dan dihitung terpisah (±60-80 kkal per 5 keping).\n\nPro-tip: jangan skip kemirinya. Kemiri yang disangrai (bukan digoreng) mengeluarkan rasa gurih alaminya, jadi walau jumlahnya dikurangi, kuahnya tetap punya karakter creamy tanpa perlu santan kental.\n\nSoto betawi versi kamu, original atau diet? Komen di bawah, atau simpan dulu buat dimasak akhir pekan.\n\nAngka nutrisi adalah estimasi per porsi dari resep untuk 4 porsi, dan bisa bervariasi tergantung merek bahan, potongan daging, dan metode masak. Resep ini belum diuji dapur — target rasanya kuah creamy gurih khas soto betawi, bukan klaim.\n\nCatatan alergen: mengandung dairy (santan & susu evaporasi). Bebas gluten selama kaldu bubuk yang dipakai juga bebas gluten.\n\n⚠️ Konten edukatif, bukan pengganti saran medis. Kalau kamu punya kondisi kesehatan tertentu, sedang hamil/menyusui, atau menjalani program diet khusus, konsultasikan dulu dengan dokter atau ahli gizi.",
+  "hashtag_set": "A",
+  "hashtags": "#SotoBetawiDiet #MenuDietIndonesia #DietTanpaTersiksa #ResepDietEnak #CleanEatingIndonesia #MenuSehatHarian #DefisitKalori #MakanEnakTetapDiet #ResepSotoSehat #HealthyLifestyleID #DietTapiKenyang #MakananSehatEnak #FitFamIndonesia",
+  "alt_text": [
+    "Cover carousel resep soto betawi rendah kalori dengan badge 330 kkal dan foto semangkuk soto betawi diet berkuah creamy.",
+    "Tabel perbandingan nutrisi soto betawi biasa versus versi diet: kalori, lemak, protein, serat, gula, dan garam per porsi.",
+    "Foto flatlay bahan mentah soto betawi diet: daging sandung lamur, santan light, susu evaporasi rendah lemak, kemiri, kentang, dan tomat, dengan label tiap bahan.",
+    "Foto proses memasak soto betawi diet disertai lima langkah bernomor, dari merebus daging sampai menuang santan light.",
+    "Diagram batang rincian gizi per porsi soto betawi diet: protein 28 gram, karbohidrat 18 gram, lemak 14 gram, gula 5 gram, serat 2,5 gram, garam 400 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih soto betawi original atau versi diet."
+  ],
+  "images": [
+    {
+      "id": "hero",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of Indonesian soto betawi in a ceramic bowl, creamy pale yellowish-beige broth, tender lean beef chunks, diced potato and tomato, topped with crispy fried shallots and a lime wedge, a small side bowl of sambal and a few slices of tomato beside it"
+    },
+    {
+      "id": "bahan",
+      "aspect": "4:5",
+      "prompt": "Top-down flat lay of raw ingredients for soto betawi arranged neatly: trimmed lean beef chunks, a small jug of light coconut milk, a small jug of low-fat evaporated milk, diced potato, diced tomato, candlenuts, shallots, garlic, turmeric, ginger, galangal, lemongrass stalks, kaffir lime leaves and bay leaves"
+    },
+    {
+      "id": "proses",
+      "aspect": "4:5",
+      "prompt": "45-degree close-up of soto betawi broth simmering in a pot, light coconut milk being poured in and swirling into the golden spiced broth, beef chunks and diced potato visible, gentle steam rising"
+    }
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-26",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}
