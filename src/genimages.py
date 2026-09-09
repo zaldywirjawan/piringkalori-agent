@@ -21,6 +21,7 @@ Gambar yang sudah ada TIDAK dibuat ulang (hemat biaya), kecuali pakai --force.
 
 import argparse
 import base64
+import io
 import json
 import os
 import pathlib
@@ -28,6 +29,7 @@ import sys
 import time
 
 import requests
+from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 TOKENS = json.loads((ROOT / "brand" / "tokens.json").read_text(encoding="utf-8"))
@@ -47,38 +49,60 @@ TIMEOUT = 180
 # provider: gemini
 # --------------------------------------------------------------------------
 
+def _ambil_gambar(data: dict) -> str:
+    """Cari data base64 gambar di dalam respons, apa pun bentuknya."""
+    for step in data.get("steps", []) or []:
+        for c in step.get("content", []) or []:
+            if c.get("type") == "image" and c.get("data"):
+                return c["data"]
+    oi = (data.get("interaction", {}) or {}).get("output_image") or {}
+    if oi.get("data"):
+        return oi["data"]
+    if (data.get("output_image") or {}).get("data"):
+        return data["output_image"]["data"]
+    for cand in data.get("candidates", []) or []:
+        for part in (cand.get("content", {}) or {}).get("parts", []) or []:
+            inline = part.get("inlineData") or part.get("inline_data")
+            if inline and inline.get("data"):
+                return inline["data"]
+    return ""
+
+
 def gen_gemini(prompt: str, aspect: str, model: str) -> bytes:
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        sys.exit("GEMINI_API_KEY belum diisi. Lihat docs/SETUP.md bagian 3.")
+        sys.exit("GEMINI_API_KEY belum diisi. Lihat docs/SETUP.md bagian 4.")
     url = "https://generativelanguage.googleapis.com/v1beta/interactions"
-    body = {
-        "model": model,
-        "input": [{"type": "text", "text": prompt}],
-        "response_format": {
-            "type": "image",
-            "mime_type": "image/png",
-            "aspect_ratio": aspect,
-            "image_size": "1K",
-        },
-    }
-    r = requests.post(url, json=body, timeout=TIMEOUT,
-                      headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-    if r.status_code == 400 and "aspect_ratio" in r.text:
-        body["response_format"].pop("aspect_ratio")
-        r = requests.post(url, json=body, timeout=TIMEOUT,
-                          headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-    r.raise_for_status()
-    data = r.json()
-    b64 = (data.get("interaction", {}).get("output_image", {}) or {}).get("data")
-    if not b64:  # bentuk respons lama (generateContent)
-        for cand in data.get("candidates", []):
-            for part in cand.get("content", {}).get("parts", []):
-                if "inlineData" in part:
-                    b64 = part["inlineData"]["data"]
-    if not b64:
-        raise RuntimeError(f"Respons tidak berisi gambar: {json.dumps(data)[:400]}")
-    return base64.b64decode(b64)
+    headers = {"x-goog-api-key": key, "Content-Type": "application/json"}
+    dasar = {"model": model, "input": [{"type": "text", "text": prompt}]}
+
+    varian = [
+        {**dasar, "response_format": {"type": "image", "mime_type": "image/jpeg",
+                                      "aspect_ratio": aspect, "image_size": "1K"}},
+        {**dasar, "response_format": {"type": "image", "aspect_ratio": aspect}},
+        {**dasar, "response_format": {"type": "image", "image_size": "1K"}},
+        {**dasar, "response_format": {"type": "image"}},
+        dasar,
+    ]
+
+    galat = []
+    for body in varian:
+        r = requests.post(url, json=body, timeout=TIMEOUT, headers=headers)
+        if r.ok:
+            b64 = _ambil_gambar(r.json())
+            if b64:
+                return base64.b64decode(b64)
+            galat.append(f"200 tapi tanpa gambar: {json.dumps(r.json())[:200]}")
+            continue
+        try:
+            pesan = r.json().get("error", {}).get("message", r.text)[:220]
+        except Exception:  # noqa: BLE001
+            pesan = r.text[:220]
+        galat.append(f"{r.status_code}: {pesan}")
+        if r.status_code in (401, 403):
+            break
+
+    raise RuntimeError(" | ".join(dict.fromkeys(galat)))
 
 
 # --------------------------------------------------------------------------
@@ -92,7 +116,7 @@ OPENAI_SIZES = {"1:1": "1024x1024", "4:5": "1024x1536", "2:3": "1024x1536",
 def gen_openai(prompt: str, aspect: str, model: str) -> bytes:
     key = os.environ.get("OPENAI_API_KEY")
     if not key:
-        sys.exit("OPENAI_API_KEY belum diisi. Lihat docs/SETUP.md bagian 3.")
+        sys.exit("OPENAI_API_KEY belum diisi. Lihat docs/SETUP.md bagian 4.")
     r = requests.post(
         "https://api.openai.com/v1/images/generations",
         headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
@@ -132,7 +156,7 @@ def process(path: pathlib.Path, force: bool) -> int:
         aspect = spec.get("aspect", "4:5")
         for attempt in range(1, 4):
             try:
-                dest.write_bytes(generate(prompt, aspect))
+                Image.open(io.BytesIO(generate(prompt, aspect))).convert("RGB").save(dest, "PNG")
                 print(f"  {doc['kode']}/{spec['id']}: dibuat ({dest.stat().st_size // 1024} KB)")
                 made += 1
                 break
