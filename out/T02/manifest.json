@@ -1,0 +1,32 @@
+{
+  "kode": "T02",
+  "slug": "takaran-tangan",
+  "judul": "Takar Porsi Pakai Tangan Sendiri",
+  "kategori": "tips",
+  "files": {
+    "carousel": [
+      "out/T02/carousel/01.png",
+      "out/T02/carousel/02.png",
+      "out/T02/carousel/03.png",
+      "out/T02/carousel/04.png",
+      "out/T02/carousel/05.png"
+    ],
+    "story": [
+      "out/T02/story/01.png",
+      "out/T02/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau berjudul cara menakar porsi makan menggunakan tangan tanpa timbangan.",
+    "Slide daftar empat takaran: telapak tangan untuk protein, kepalan untuk sayur, cakupan telapak untuk karbohidrat, ibu jari untuk lemak.",
+    "Slide penjelasan bahwa ukuran tangan mengikuti ukuran tubuh sehingga porsinya menyesuaikan dengan sendirinya.",
+    "Slide catatan bahwa metode tangan bukan pengganti timbangan saat sedang melakukan pencatatan ketat.",
+    "Slide penutup menegaskan takaran tangan selalu terbawa ke mana pun."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-28",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

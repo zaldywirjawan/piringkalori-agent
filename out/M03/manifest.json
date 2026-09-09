@@ -1,0 +1,32 @@
+{
+  "kode": "M03",
+  "slug": "makan-malam",
+  "judul": "Makan Malam Bikin Gemuk?",
+  "kategori": "mitos",
+  "files": {
+    "carousel": [
+      "out/M03/carousel/01.png",
+      "out/M03/carousel/02.png",
+      "out/M03/carousel/03.png",
+      "out/M03/carousel/04.png",
+      "out/M03/carousel/05.png"
+    ],
+    "story": [
+      "out/M03/story/01.png",
+      "out/M03/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau dengan aturan jangan makan setelah jam 6 yang ditandai sebagai mitos.",
+    "Slide penjelasan bahwa total kalori harian menentukan berat badan, bukan jam kalori itu masuk.",
+    "Slide penjelasan bahwa berhenti makan malam berhasil karena memangkas total kalori, bukan karena jamnya.",
+    "Slide catatan bahwa makan terlalu dekat waktu tidur dapat mengganggu kualitas tidur sebagian orang.",
+    "Slide penutup menegaskan bahwa makan malam saat pulang kerja bukan pelanggaran aturan diet."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-07",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

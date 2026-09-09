@@ -1,0 +1,32 @@
+{
+  "kode": "T03",
+  "slug": "bumbu-wajib",
+  "judul": "5 Bumbu Wajib Masakan Diet",
+  "kategori": "tips",
+  "files": {
+    "carousel": [
+      "out/T03/carousel/01.png",
+      "out/T03/carousel/02.png",
+      "out/T03/carousel/03.png",
+      "out/T03/carousel/04.png",
+      "out/T03/carousel/05.png"
+    ],
+    "story": [
+      "out/T03/story/01.png",
+      "out/T03/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau berjudul lima bumbu yang membuat masakan diet tidak hambar.",
+    "Slide daftar tiga bumbu pertama: bawang putih dan bombay, kemiri atau kelapa sangrai, dan rempah utuh.",
+    "Slide daftar dua bumbu yang sering dilupakan: bahan asam seperti jeruk nipis, dan kaldu jamur rendah sodium.",
+    "Slide kutipan bahwa masakan diet hambar biasanya hanya kurang lapisan rasa, bukan takdir makanan sehat.",
+    "Slide penutup menanyakan bumbu andalan pembaca."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-12",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kode": "R06",
+  "slug": "gulai-ayam",
+  "judul": "Gulai Ayam Diet — 255 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R06/carousel/01.png",
+      "out/R06/carousel/02.png",
+      "out/R06/carousel/03.png",
+      "out/R06/carousel/04.png",
+      "out/R06/carousel/05.png",
+      "out/R06/carousel/06.png"
+    ],
+    "story": [
+      "out/R06/story/01.png",
+      "out/R06/story/02.png",
+      "out/R06/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep gulai ayam rendah kalori dengan badge 255 kkal dan foto semangkuk gulai berkuah kental.",
+    "Tabel perbandingan gulai ayam biasa versus versi diet: kalori, lemak, protein, serat, garam, dan cara mengentalkan kuah.",
+    "Foto flatlay bahan mentah gulai ayam diet: dada ayam tanpa kulit, kentang, santan light, kemiri, dan rempah utuh, dengan label tiap bahan.",
+    "Foto proses memasak gulai ayam diet disertai lima langkah bernomor, dari merebus kentang sampai menuang santan light di akhir.",
+    "Diagram batang rincian gizi per porsi gulai ayam diet: protein 25 gram, karbohidrat 14 gram, lemak 10 gram, serat 2 gram, gula 2 gram, garam 405 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan menyebutkan menu keluarga lain yang ingin dibuat versi dietnya."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-17",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

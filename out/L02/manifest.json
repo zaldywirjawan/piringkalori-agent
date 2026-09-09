@@ -1,0 +1,34 @@
+{
+  "kode": "L02",
+  "slug": "progress-zigzag",
+  "judul": "Progress Itu Gak Selalu Garis Lurus",
+  "kategori": "relatable",
+  "files": {
+    "carousel": [
+      "out/L02/carousel/01.png",
+      "out/L02/carousel/02.png",
+      "out/L02/carousel/03.png",
+      "out/L02/carousel/04.png",
+      "out/L02/carousel/05.png",
+      "out/L02/carousel/06.png"
+    ],
+    "story": [
+      "out/L02/story/01.png",
+      "out/L02/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau membandingkan progress yang diharapkan dengan yang benar-benar terjadi.",
+    "Slide penjelasan bahwa grafik penurunan berat badan berbentuk zigzag, bukan garis lurus, dan itu normal.",
+    "Slide daftar faktor yang menggerakkan angka timbangan: kadar air, asupan garam, isi pencernaan dan hormon, serta tidur dan stres.",
+    "Slide penjelasan bahwa banyak orang berhenti bukan karena programnya gagal, melainkan karena menilai dari satu minggu stagnan.",
+    "Slide kutipan agar menilai progress dari arah, bukan dari satu titik.",
+    "Slide penutup menyebut tanda progress yang tidak muncul di timbangan seperti celana yang melonggar dan tidur yang lebih nyenyak."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-03",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

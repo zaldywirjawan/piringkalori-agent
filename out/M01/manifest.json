@@ -1,0 +1,30 @@
+{
+  "kode": "M01",
+  "slug": "nasi-dingin",
+  "judul": "Nasi Dingin Lebih Rendah Kalori?",
+  "kategori": "mitos",
+  "files": {
+    "carousel": [
+      "out/M01/carousel/01.png",
+      "out/M01/carousel/02.png",
+      "out/M01/carousel/03.png",
+      "out/M01/carousel/04.png"
+    ],
+    "story": [
+      "out/M01/story/01.png",
+      "out/M01/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau bertanya apakah nasi dingin lebih rendah kalori, dengan badge mitos atau fakta.",
+    "Slide penjelasan bahwa nasi dingin membentuk pati resisten, tapi efeknya kecil dan tidak drastis.",
+    "Slide penjelasan bahwa porsi lebih menentukan: 200 gram nasi dingin tetap lebih tinggi kalorinya daripada 100 gram nasi hangat.",
+    "Slide penutup mengajak pembaca menuliskan mitos diet lain yang ingin dibahas."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-16",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

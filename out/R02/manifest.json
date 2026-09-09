@@ -1,0 +1,35 @@
+{
+  "kode": "R02",
+  "slug": "soto-betawi",
+  "judul": "Soto Betawi Diet — 330 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R02/carousel/01.png",
+      "out/R02/carousel/02.png",
+      "out/R02/carousel/03.png",
+      "out/R02/carousel/04.png",
+      "out/R02/carousel/05.png",
+      "out/R02/carousel/06.png"
+    ],
+    "story": [
+      "out/R02/story/01.png",
+      "out/R02/story/02.png",
+      "out/R02/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep soto betawi rendah kalori dengan badge 330 kkal dan foto semangkuk soto betawi diet berkuah creamy.",
+    "Tabel perbandingan nutrisi soto betawi biasa versus versi diet: kalori, lemak, protein, serat, gula, dan garam per porsi.",
+    "Foto flatlay bahan mentah soto betawi diet: daging sandung lamur, santan light, susu evaporasi rendah lemak, kemiri, kentang, dan tomat, dengan label tiap bahan.",
+    "Foto proses memasak soto betawi diet disertai lima langkah bernomor, dari merebus daging sampai menuang santan light.",
+    "Diagram batang rincian gizi per porsi soto betawi diet: protein 28 gram, karbohidrat 18 gram, lemak 14 gram, gula 5 gram, serat 2,5 gram, garam 400 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih soto betawi original atau versi diet."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-26",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

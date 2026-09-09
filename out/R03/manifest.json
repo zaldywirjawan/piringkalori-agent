@@ -1,0 +1,35 @@
+{
+  "kode": "R03",
+  "slug": "ayam-goreng-kfc",
+  "judul": "Ayam Goreng Krispi Diet — 230 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R03/carousel/01.png",
+      "out/R03/carousel/02.png",
+      "out/R03/carousel/03.png",
+      "out/R03/carousel/04.png",
+      "out/R03/carousel/05.png",
+      "out/R03/carousel/06.png"
+    ],
+    "story": [
+      "out/R03/story/01.png",
+      "out/R03/story/02.png",
+      "out/R03/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep ayam goreng krispi rendah kalori dengan badge 230 kkal dan foto potongan ayam berlapis tepung rempah.",
+    "Tabel perbandingan nutrisi ayam goreng cepat saji versus versi diet: kalori, lemak, protein, serat, gula, dan garam per potong.",
+    "Foto flatlay bahan mentah ayam goreng diet: fillet ayam tanpa kulit, susu rendah lemak, lemon, putih telur, tepung, dan bumbu rempah kering, dengan label tiap bahan.",
+    "Foto proses memasak ayam goreng diet disertai lima langkah bernomor, dari marinasi susu-lemon sampai masuk air fryer.",
+    "Diagram batang rincian gizi per potong ayam goreng diet: protein 27 gram, karbohidrat 17 gram, lemak 6 gram, serat 1,5 gram, gula 1 gram, garam 480 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih ayam krispi atau ayam bakar."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-30",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

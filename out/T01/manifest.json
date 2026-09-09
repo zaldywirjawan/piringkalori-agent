@@ -1,0 +1,34 @@
+{
+  "kode": "T01",
+  "slug": "label-gizi",
+  "judul": "Cara Baca Label Gizi",
+  "kategori": "tips",
+  "files": {
+    "carousel": [
+      "out/T01/carousel/01.png",
+      "out/T01/carousel/02.png",
+      "out/T01/carousel/03.png",
+      "out/T01/carousel/04.png",
+      "out/T01/carousel/05.png",
+      "out/T01/carousel/06.png"
+    ],
+    "story": [
+      "out/T01/story/01.png",
+      "out/T01/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau berjudul cara baca label gizi agar tidak tertipu klaim kemasan sehat.",
+    "Slide tips pertama: mengecek takaran saji karena satu kemasan sering berisi lebih dari satu sajian.",
+    "Slide tips kedua: memeriksa kandungan gula dan natrium yang sering tinggi pada produk berlabel sehat.",
+    "Slide tips ketiga: urutan komposisi bahan menunjukkan urutan jumlah, sehingga gula di tiga besar berarti produk memang manis.",
+    "Slide kutipan bahwa klaim di depan kemasan adalah marketing sedangkan label di belakang adalah data.",
+    "Slide penutup mengajak pembaca menyimpan konten untuk dibuka saat berbelanja."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-19",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

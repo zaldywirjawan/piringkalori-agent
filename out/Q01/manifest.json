@@ -1,0 +1,34 @@
+{
+  "kode": "Q01",
+  "slug": "qna-perdana",
+  "judul": "Q&A Perdana — 3 Pertanyaan Paling Sering Masuk",
+  "kategori": "qna",
+  "files": {
+    "carousel": [
+      "out/Q01/carousel/01.png",
+      "out/Q01/carousel/02.png",
+      "out/Q01/carousel/03.png",
+      "out/Q01/carousel/04.png",
+      "out/Q01/carousel/05.png",
+      "out/Q01/carousel/06.png"
+    ],
+    "story": [
+      "out/Q01/story/01.png",
+      "out/Q01/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau berjudul tiga pertanyaan diet yang paling sering masuk.",
+    "Slide jawaban pertanyaan pertama tentang apakah olahraga wajib, dengan penjelasan bahwa pola makan pengaruhnya paling besar.",
+    "Slide jawaban pertanyaan kedua tentang boleh tidaknya makan gorengan saat diet.",
+    "Slide jawaban pertanyaan ketiga tentang penyebab berat badan tidak turun meski merasa sudah defisit kalori.",
+    "Slide anjuran memeriksakan diri ke dokter atau ahli gizi bila pencatatan sudah teliti namun tetap tidak ada perubahan.",
+    "Slide penutup mengajak pembaca menuliskan pertanyaan untuk sesi tanya jawab berikutnya."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-14",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

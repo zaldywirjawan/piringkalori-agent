@@ -1,0 +1,35 @@
+{
+  "kode": "R05",
+  "slug": "ayam-kecap",
+  "judul": "Ayam Kecap Diet — 200 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R05/carousel/01.png",
+      "out/R05/carousel/02.png",
+      "out/R05/carousel/03.png",
+      "out/R05/carousel/04.png",
+      "out/R05/carousel/05.png",
+      "out/R05/carousel/06.png"
+    ],
+    "story": [
+      "out/R05/story/01.png",
+      "out/R05/story/02.png",
+      "out/R05/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep ayam kecap rendah kalori dengan badge 200 kkal dan foto ayam kecap mengilap berbalut saus.",
+    "Tabel perbandingan nutrisi ayam kecap biasa versus versi diet: kalori, protein, lemak, gula, serat, dan garam per porsi.",
+    "Foto flatlay bahan mentah ayam kecap diet: dada ayam tanpa kulit, bawang bombay, bawang putih, jahe, kecap manis, dan saus tiram, dengan label tiap bahan.",
+    "Foto proses memasak ayam kecap diet disertai lima langkah bernomor, dari menumis bawang bombay sampai mereduksi saus.",
+    "Diagram batang rincian gizi per porsi ayam kecap diet: protein 26 gram, karbohidrat 11 gram, lemak 5 gram, gula 7 gram, serat 1 gram, garam 420 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar menyebutkan merek kecap yang biasa dipakai."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-10",
+    "jam": "08:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

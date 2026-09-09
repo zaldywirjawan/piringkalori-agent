@@ -1,0 +1,35 @@
+{
+  "kode": "R04",
+  "slug": "nasi-padang",
+  "judul": "Nasi Padang Komplit Diet — 400 kkal",
+  "kategori": "resep",
+  "files": {
+    "carousel": [
+      "out/R04/carousel/01.png",
+      "out/R04/carousel/02.png",
+      "out/R04/carousel/03.png",
+      "out/R04/carousel/04.png",
+      "out/R04/carousel/05.png",
+      "out/R04/carousel/06.png"
+    ],
+    "story": [
+      "out/R04/story/01.png",
+      "out/R04/story/02.png",
+      "out/R04/story/03.png"
+    ]
+  },
+  "alt_text": [
+    "Cover carousel resep nasi padang rendah kalori dengan badge 400 kkal dan foto satu piring nasi padang komplit versi diet.",
+    "Tabel perbandingan nasi padang biasa versus versi diet: kalori, porsi nasi, lemak, protein, serat, dan garam per porsi.",
+    "Foto flatlay bahan mentah nasi padang diet berisi dada ayam, nasi merah, nangka muda, daun singkong, cabai hijau, dan bumbu, dengan label bahan yang diganti dan yang porsinya dikecilkan.",
+    "Foto proses memasak disertai lima langkah bernomor, dari melumuri ayam dengan bumbu Padang sampai menimbang nasi merah 100 gram.",
+    "Diagram batang rincian gizi per porsi: protein 33 gram, karbohidrat 39 gram, lemak 13 gram, serat 8 gram, gula 5 gram, dan garam 460 miligram.",
+    "Slide penutup mengajak pembaca menyimpan resep dan berkomentar memilih kuah gulai disiram atau dipisah."
+  ],
+  "jadwal": {
+    "tanggal": "2026-10-05",
+    "jam": "07:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}

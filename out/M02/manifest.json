@@ -1,0 +1,32 @@
+{
+  "kode": "M02",
+  "slug": "karbo-gemuk",
+  "judul": "Karbo Bikin Gemuk?",
+  "kategori": "mitos",
+  "files": {
+    "carousel": [
+      "out/M02/carousel/01.png",
+      "out/M02/carousel/02.png",
+      "out/M02/carousel/03.png",
+      "out/M02/carousel/04.png",
+      "out/M02/carousel/05.png"
+    ],
+    "story": [
+      "out/M02/story/01.png",
+      "out/M02/story/02.png"
+    ]
+  },
+  "alt_text": [
+    "Slide sampul hijau dengan kalimat karbo bikin gemuk yang ditandai sebagai mitos.",
+    "Diagram batang perbandingan kalori per gram: lemak 9 kkal, karbohidrat 4 kkal, protein 4 kkal.",
+    "Slide penjelasan bahwa penyebab kenaikan berat badan adalah surplus kalori, bukan satu makronutrien tertentu.",
+    "Slide catatan bahwa makanan tinggi karbohidrat olahan mudah dikonsumsi berlebihan karena rasa kenyangnya singkat.",
+    "Slide penutup mengajak pembaca membagikan konten ke teman yang masih takut mengonsumsi karbohidrat."
+  ],
+  "jadwal": {
+    "tanggal": "2026-09-23",
+    "jam": "19:00",
+    "tipe": "feed_carousel",
+    "platform": "instagram"
+  }
+}
