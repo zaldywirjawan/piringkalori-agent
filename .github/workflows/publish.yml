@@ -1,0 +1,60 @@
+name: Posting ke Instagram
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Cuma simulasi, tidak benar-benar posting"
+        type: boolean
+        default: true
+      kode:
+        description: "Paksa posting satu kode konten (mis. L01), kosongkan untuk ikut jadwal"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-instagram
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: Jalankan penerbit
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION || 'v23.0' }}
+          GRACE_HOURS: ${{ vars.GRACE_HOURS || '6' }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ -n "${{ inputs.kode }}" ]; then ARGS="$ARGS --kode ${{ inputs.kode }} --force"; fi
+          python3 src/publish.py $ARGS
+
+      - name: Simpan status & arsip
+        if: inputs.dry_run != true
+        run: |
+          git config user.name  "piringkalori-agent"
+          git config user.email "agent@piringkalori.local"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "Tidak ada perubahan."
+          else
+            git commit -m "publish: perbarui status kalender & arsip"
+            git pull --rebase --autostash
+            git push
+          fi
