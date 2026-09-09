@@ -80,6 +80,9 @@ body {{
 .eyebrow {{ font-size:26px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:{C['coral']}; margin-bottom:18px; }}
 .accent {{ font-family:'Fraunces',serif; font-style:italic; font-weight:600; }}
 .grow {{ flex:1 1 auto; min-height:0; }}
+/* Teks langkah tidak boleh dikompres: fotonya yang mengalah. */
+.keep {{ flex:0 0 auto; }}
+.photo.flexy {{ min-height:320px; }}
 .mid {{ flex:1 1 auto; min-height:0; display:flex; flex-direction:column; justify-content:center; }}
 
 /* footer --------------------------------------------------------------- */
@@ -97,7 +100,12 @@ body {{
   border-radius:44px; overflow:hidden; background:{C['sageSoft']};
   position:relative; width:100%; flex:1 1 auto; min-height:0;
 }}
-.photo img {{ width:100%; height:100%; object-fit:cover; display:block; }}
+/* Foto dipasang absolut supaya tingginya TIDAK ikut menghitung tinggi kotak.
+   Kalau ikut menghitung, gambar 1024x1536 memaksa kotaknya jadi ~1400px dan
+   mendorong teks di bawahnya keluar kanvas. Dengan absolut, kotak foto hanya
+   mengambil sisa ruang yang benar-benar tersedia. */
+.photo img {{ position:absolute; inset:0; width:100%; height:100%;
+              object-fit:cover; display:block; }}
 .photo.ph::after {{
   content:'FOTO BELUM ADA'; position:absolute; inset:0;
   display:flex; align-items:center; justify-content:center;
@@ -295,15 +303,23 @@ def s_steps(s, ctx):
         f'<div class="step"><div class="num">{i+1}</div><div class="step-t">{rich(t)}</div></div>'
         for i, t in enumerate(s.get("steps", []))
     )
-    photo = photo_html(s.get("image"), ctx["base"]) if s.get("image") else ""
+    # Kalau ada foto, fotolah yang mengalah saat ruang sempit (kelas `flexy`),
+    # dan daftar langkah dikunci setinggi isinya (`keep`) supaya tidak ada
+    # langkah yang terpotong. Tanpa foto, daftar langkah yang mengisi ruang.
+    if s.get("image"):
+        photo = (photo_html(s["image"], ctx["base"]).replace(
+            'class="photo"', 'class="photo flexy"', 1)
+            + '<div style="height:30px"></div>')
+        kelas = "keep"
+    else:
+        photo, kelas = "", "grow"
     return f"""<div class="slide bg-krem">
   {head(ctx['kat_label'])}
   <div style="height:40px"></div>
   <div class="title">{rich(s.get('judul','Cara Masak'))}</div>
   <div style="height:30px"></div>
   {photo}
-  <div style="height:30px"></div>
-  <div class="grow">{steps}</div>
+  <div class="{kelas}">{steps}</div>
   {foot(ctx['i'], ctx['n'])}
 </div>"""
 
