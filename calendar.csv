@@ -2,7 +2,7 @@ id,kode,tanggal_posting,jam_posting,platform,tipe_konten,status,media_id,permali
 L01-feed,L01,2026-09-08,07:00,instagram,feed_carousel,posted,17962143728981720,https://www.instagram.com/p/DdEPCAEm-B7/,2026-09-09 19:13,"Uji coba pertama, tayang manual 9 Sep. Hashtag masuk caption."
 L01-story,L01,2026-09-08,06:30,instagram,story,skipped,,,,Dilewat. Story butuh sticker manual dan gambarnya sudah diarsipkan.
 M01-feed,M01,2026-09-16,19:00,instagram,feed_carousel,posted,17968655403150101,https://www.instagram.com/p/DdWR0g3IMlu/,2026-09-16 19:24,
-T01-feed,T01,2026-09-19,08:00,instagram,feed_carousel,approved,,,,"Tanpa foto, siap tayang."
+T01-feed,T01,2026-09-19,08:00,instagram,feed_carousel,posted,17921333313428899,https://www.instagram.com/p/DdczYFNjcIn/,2026-09-19 08:13,
 R01-feed,R01,2026-09-21,07:00,instagram,feed_carousel,approved,,,,Butuh 3 foto AI dulu.
 M02-feed,M02,2026-09-23,19:00,instagram,feed_carousel,approved,,,,"Tanpa foto, siap tayang."
 R02-feed,R02,2026-09-26,08:00,instagram,feed_carousel,approved,,,,Butuh 3 foto AI dulu.
