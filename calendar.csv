@@ -11,7 +11,7 @@ R03-feed,R03,2026-09-30,19:00,instagram,feed_carousel,failed,,,,Graph API 400: O
 L02-feed,L02,2026-10-03,08:00,instagram,feed_carousel,posted,18229055323323284,https://www.instagram.com/p/DeA2ztjEr2M/,2026-10-03 08:15,
 R04-feed,R04,2026-10-05,07:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
 M03-feed,M03,2026-10-07,19:00,instagram,feed_carousel,posted,18135583369632894,https://www.instagram.com/p/DeMWQp3jGfX/,2026-10-07 19:22,
-R05-feed,R05,2026-10-10,08:00,instagram,feed_carousel,approved,,,,Butuh 3 foto AI dulu.
+R05-feed,R05,2026-10-10,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
 T03-feed,T03,2026-10-12,07:00,instagram,feed_carousel,approved,,,,"Tanpa foto, siap tayang."
 Q01-feed,Q01,2026-10-14,19:00,instagram,feed_carousel,approved,,,,"Tanpa foto, siap tayang."
 R06-feed,R06,2026-10-17,08:00,instagram,feed_carousel,approved,,,,Butuh 3 foto AI dulu.
