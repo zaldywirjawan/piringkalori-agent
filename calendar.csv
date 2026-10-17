@@ -14,4 +14,4 @@ M03-feed,M03,2026-10-07,19:00,instagram,feed_carousel,posted,18135583369632894,h
 R05-feed,R05,2026-10-10,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
 T03-feed,T03,2026-10-12,07:00,instagram,feed_carousel,posted,18634516309023125,https://www.instagram.com/p/DeYIywplbIn/,2026-10-12 09:15,
 Q01-feed,Q01,2026-10-14,19:00,instagram,feed_carousel,posted,18187772374407638,https://www.instagram.com/p/Deetk0pjQpP/,2026-10-14 22:32,
-R06-feed,R06,2026-10-17,08:00,instagram,feed_carousel,approved,,,,Butuh 3 foto AI dulu.
+R06-feed,R06,2026-10-17,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
