@@ -1,0 +1,33 @@
+name: Cek token Meta
+
+# Dijalankan manual kapan saja, dan otomatis tiap Senin pagi WIB sebagai
+# peringatan dini. Tidak memposting apa pun — hanya bertanya ke Meta apakah
+# token masih hidup, masih berwenang atas akun Instagram, dan kapan habis.
+#
+# Ini ada karena "Posting ke Instagram" bisa hijau terus walau token sudah
+# mati: kalau tidak ada jadwal yang jatuh tempo, script berhenti sebelum
+# menyentuh token. Begitu juga --dry-run.
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "45 0 * * 1"   # Senin 07:45 WIB
+
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: Tanya ke Meta
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION || 'v23.0' }}
+        run: python3 src/publish.py --cek-token

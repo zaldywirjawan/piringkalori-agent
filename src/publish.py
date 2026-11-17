@@ -290,6 +290,80 @@ def load_doc(kode: str) -> dict:
 # pemeriksa caption
 # --------------------------------------------------------------------------
 
+def cek_token() -> int:
+    """Tanya ke server Meta apakah token benar-benar hidup dan berwenang.
+
+    Ini ada karena `--dry-run` TIDAK menyentuh Meta sama sekali, dan run
+    terjadwal yang tidak menemukan jadwal juga berhenti sebelum memakai
+    token. Keduanya bisa "sukses" padahal token sudah mati — yang baru
+    ketahuan saat jadwal tiba dan posting gagal.
+    """
+    if not TOKEN or not IGID:
+        print("GAGAL: IG_ACCESS_TOKEN atau IG_BUSINESS_ACCOUNT_ID belum terisi.")
+        print("Isi di GitHub → Settings → Secrets and variables → Actions.")
+        return 1
+
+    def tanya(path, **p):
+        p["access_token"] = TOKEN
+        try:
+            r = requests.get(f"{BASE}/{path}", params=p, timeout=60)
+        except requests.RequestException as e:  # jaringan, bukan token
+            return None, f"tidak bisa menghubungi Meta: {type(e).__name__}"
+        try:
+            d = r.json()
+        except Exception:  # noqa: BLE001
+            return None, r.text[:200]
+        if r.status_code >= 400:
+            return None, d.get("error", {}).get("message", str(d))[:300]
+        return d, None
+
+    # 1. Token hidup?
+    me, err = tanya("me", fields="id,name")
+    if err:
+        print(f"GAGAL: token ditolak Meta.\n  {err}")
+        print("\nBuat token baru di developers.facebook.com/tools/explorer,")
+        print("perpanjang di developers.facebook.com/tools/debug/accesstoken,")
+        print("lalu perbarui secret IG_ACCESS_TOKEN.")
+        return 1
+    print(f"Token hidup. Atas nama: {me.get('name')} (id {me.get('id')})")
+
+    # 2. Benar-benar bisa menyentuh akun Instagram yang dipakai agent?
+    ig, err = tanya(IGID, fields="id,username")
+    if err:
+        print(f"GAGAL: token hidup, tapi tidak berwenang atas akun Instagram {IGID}.\n  {err}")
+        print("\nBiasanya karena Page 'Piringkalori' tidak ikut dicentang saat")
+        print("memberi izin. Ulangi Generate Access Token, pilih Edit settings,")
+        print("dan pastikan Page-nya tercentang.")
+        return 1
+    print(f"Akun Instagram terjangkau: @{ig.get('username')} (id {ig.get('id')})")
+
+    # 3. Kapan habis? Ini yang bikin posting berhenti diam-diam.
+    dbg, err = tanya("debug_token", input_token=TOKEN)
+    if err:
+        print(f"Catatan: masa berlaku tidak bisa dibaca ({err}). Tidak fatal.")
+    else:
+        d = dbg.get("data", {})
+        exp = d.get("expires_at")
+        if exp == 0:
+            print("Masa berlaku: tidak kedaluwarsa.")
+        elif exp:
+            habis = dt.datetime.fromtimestamp(exp, TZ)
+            sisa = (habis - dt.datetime.now(TZ)).days
+            print(f"Masa berlaku sampai {habis:%d %B %Y} — sisa {sisa} hari.")
+            if sisa < 14:
+                print("  PERHATIAN: kurang dari dua minggu. Perbarui sekarang.")
+        izin = d.get("scopes", [])
+        wajib = ["instagram_basic", "instagram_content_publish"]
+        kurang = [s for s in wajib if s not in izin]
+        if kurang:
+            print(f"GAGAL: izin yang kurang: {', '.join(kurang)}")
+            return 1
+        print(f"Izin lengkap ({len(izin)} scope, termasuk instagram_content_publish).")
+
+    print("\nSEMUA BERES — token siap dipakai posting.")
+    return 0
+
+
 def cek_semua_caption() -> int:
     """Periksa panjang caption setiap konten. Kembalikan 1 kalau ada yang lewat."""
     folders = sorted((ROOT / "content").glob("*/content.json"))
@@ -320,10 +394,14 @@ def main():
     ap.add_argument("--force", action="store_true", help="abaikan jadwal")
     ap.add_argument("--cek", action="store_true",
                     help="periksa panjang caption semua konten, tanpa posting")
+    ap.add_argument("--cek-token", action="store_true",
+                    help="periksa token Meta ke server, tanpa posting")
     a = ap.parse_args()
 
     if a.cek:
         sys.exit(cek_semua_caption())
+    if a.cek_token:
+        sys.exit(cek_token())
 
     rows = read_cal()
     now = dt.datetime.now(TZ)
