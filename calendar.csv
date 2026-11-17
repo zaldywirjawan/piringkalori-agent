@@ -5,13 +5,13 @@ M01-feed,M01,2026-09-16,19:00,instagram,feed_carousel,posted,17968655403150101,h
 T01-feed,T01,2026-09-19,08:00,instagram,feed_carousel,posted,17921333313428899,https://www.instagram.com/p/DdczYFNjcIn/,2026-09-19 08:13,
 R01-feed,R01,2026-09-21,07:00,instagram,feed_carousel,posted,18146270806559798,https://www.instagram.com/p/Ddh3LpqGLmJ/,2026-09-21 07:22,
 M02-feed,M02,2026-09-23,19:00,instagram,feed_carousel,posted,18464130139137767,https://www.instagram.com/p/DdoTFwTk7is/,2026-09-23 19:21,
-R02-feed,R02,2026-09-26,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
+R02-feed,R02,2026-11-19,08:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.
 T02-feed,T02,2026-09-28,07:00,instagram,feed_carousel,posted,18123336418881817,https://www.instagram.com/p/Ddz5WZ2oFr3/,2026-09-28 07:27,
-R03-feed,R03,2026-09-30,19:00,instagram,feed_carousel,failed,,,,Graph API 400: Only photo or video can be accepted as media type.
+R03-feed,R03,2026-11-21,19:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.
 L02-feed,L02,2026-10-03,08:00,instagram,feed_carousel,posted,18229055323323284,https://www.instagram.com/p/DeA2ztjEr2M/,2026-10-03 08:15,
-R04-feed,R04,2026-10-05,07:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
+R04-feed,R04,2026-11-24,08:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.
 M03-feed,M03,2026-10-07,19:00,instagram,feed_carousel,posted,18135583369632894,https://www.instagram.com/p/DeMWQp3jGfX/,2026-10-07 19:22,
-R05-feed,R05,2026-10-10,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
+R05-feed,R05,2026-11-26,19:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.
 T03-feed,T03,2026-10-12,07:00,instagram,feed_carousel,posted,18634516309023125,https://www.instagram.com/p/DeYIywplbIn/,2026-10-12 09:15,
 Q01-feed,Q01,2026-10-14,19:00,instagram,feed_carousel,posted,18187772374407638,https://www.instagram.com/p/Deetk0pjQpP/,2026-10-14 22:32,
-R06-feed,R06,2026-10-17,08:00,instagram,feed_carousel,failed,,,,Graph API 400: The caption was too long.
+R06-feed,R06,2026-11-29,08:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.

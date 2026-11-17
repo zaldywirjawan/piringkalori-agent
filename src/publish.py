@@ -51,6 +51,10 @@ IGID = os.environ.get("IG_BUSINESS_ACCOUNT_ID", "")
 # lebih baik dilewat daripada tiba-tiba tayang tengah malam karena runner mati.
 GRACE_HOURS = int(os.environ.get("GRACE_HOURS", "6"))
 
+# Batas keras caption Instagram. Lewat satu karakter pun, Graph API menolak
+# dengan 400 "The caption was too long".
+CAPTION_MAX = 2200
+
 FIELDS = ["id", "kode", "tanggal_posting", "jam_posting", "platform", "tipe_konten",
           "status", "media_id", "permalink", "posted_at", "catatan"]
 
@@ -209,6 +213,13 @@ def caption_of(doc: dict) -> str:
     `instagram_manage_comments`, dan tanpa izin itu Meta menolak dengan
     error (#10). Menaruhnya di caption selalu berhasil dan tidak
     memerlukan wewenang tambahan apa pun.
+
+    Instagram menolak caption di atas CAPTION_MAX karakter dengan
+    "The caption was too long" — penolakan itu baru datang SETELAH semua
+    gambar carousel diunggah, jadi kuota dan waktu sudah terbuang.
+    Karena itu panjangnya diperiksa di sini, sebelum satu pun panggilan
+    API dilakukan, dan gagal dengan angka yang jelas supaya ketahuan
+    saat dry run.
     """
     cap = doc.get("caption", "")
     if doc.get("disclosure_ai"):
@@ -218,6 +229,15 @@ def caption_of(doc: dict) -> str:
     tags = doc.get("hashtags", "").strip()
     if tags:
         cap += "\n\n.\n.\n.\n" + tags
+
+    if len(cap) > CAPTION_MAX:
+        inti = len(doc.get("caption", ""))
+        raise RuntimeError(
+            f"Caption {len(cap)} karakter, batas Instagram {CAPTION_MAX}. "
+            f"Kelebihan {len(cap) - CAPTION_MAX}. "
+            f"(teks {inti} + disclosure + hashtag {len(tags)}) "
+            f"Pangkas caption di content.json, jangan tambah hashtag."
+        )
     return cap
 
 
@@ -267,13 +287,43 @@ def load_doc(kode: str) -> dict:
 
 
 # --------------------------------------------------------------------------
+# pemeriksa caption
+# --------------------------------------------------------------------------
+
+def cek_semua_caption() -> int:
+    """Periksa panjang caption setiap konten. Kembalikan 1 kalau ada yang lewat."""
+    folders = sorted((ROOT / "content").glob("*/content.json"))
+    if not folders:
+        print("Tidak ada konten di content/")
+        return 0
+    gagal = 0
+    print(f"{'konten':<30}{'panjang':>9}{'sisa':>8}  status")
+    for f in folders:
+        nama = f.parent.name
+        doc = json.loads(f.read_text(encoding="utf-8"))
+        try:
+            n = len(caption_of(doc))
+            print(f"{nama:<30}{n:>9}{CAPTION_MAX - n:>8}  OK")
+        except RuntimeError as e:  # noqa: BLE001
+            gagal += 1
+            print(f"{nama:<30}{'':>9}{'':>8}  LEWAT BATAS — {e}")
+    print(f"\n{len(folders)} konten diperiksa, {gagal} lewat batas.")
+    return 1 if gagal else 0
+
+
+# --------------------------------------------------------------------------
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="tampilkan saja, jangan posting")
     ap.add_argument("--kode", help="paksa posting satu kode konten")
     ap.add_argument("--force", action="store_true", help="abaikan jadwal")
+    ap.add_argument("--cek", action="store_true",
+                    help="periksa panjang caption semua konten, tanpa posting")
     a = ap.parse_args()
+
+    if a.cek:
+        sys.exit(cek_semua_caption())
 
     rows = read_cal()
     now = dt.datetime.now(TZ)
