@@ -15,3 +15,19 @@ R05-feed,R05,2026-11-26,19:00,instagram,feed_carousel,approved,,,,Dijadwalkan ul
 T03-feed,T03,2026-10-12,07:00,instagram,feed_carousel,posted,18634516309023125,https://www.instagram.com/p/DeYIywplbIn/,2026-10-12 09:15,
 Q01-feed,Q01,2026-10-14,19:00,instagram,feed_carousel,posted,18187772374407638,https://www.instagram.com/p/Deetk0pjQpP/,2026-10-14 22:32,
 R06-feed,R06,2026-11-29,08:00,instagram,feed_carousel,approved,,,,Dijadwalkan ulang 17 Nov: caption dipangkas ke bawah 2200 karakter.
+R03-story-1,R03,2026-11-21,17:00,instagram,story_1,review,,,,"Teaser, ±2 jam sebelum feed. Tanpa sticker (API tidak bisa)."
+R03-story-2,R03,2026-11-21,18:30,instagram,story_2,review,,,,"Proses masak, ±30 menit sebelum feed."
+R03-story-3,R03,2026-11-21,19:30,instagram,story_3,review,,,,"""Sudah tayang"" — otomatis menunggu feed-nya tayang dulu."
+R03-reel,R03,2026-11-23,19:30,instagram,reel,review,,,,Reel 23 detik dari slide carousel. Reel pertama = uji coba jalur video.
+R04-story-1,R04,2026-11-24,06:00,instagram,story_1,review,,,,"Teaser, ±2 jam sebelum feed. Tanpa sticker (API tidak bisa)."
+R04-story-2,R04,2026-11-24,07:30,instagram,story_2,review,,,,"Proses masak, ±30 menit sebelum feed."
+R04-story-3,R04,2026-11-24,08:30,instagram,story_3,review,,,,"""Sudah tayang"" — otomatis menunggu feed-nya tayang dulu."
+R04-reel,R04,2026-11-25,19:30,instagram,reel,review,,,,Reel 23 detik dari slide carousel. Reel pertama = uji coba jalur video.
+R05-story-1,R05,2026-11-26,17:00,instagram,story_1,review,,,,"Teaser, ±2 jam sebelum feed. Tanpa sticker (API tidak bisa)."
+R05-story-2,R05,2026-11-26,18:30,instagram,story_2,review,,,,"Proses masak, ±30 menit sebelum feed."
+R05-story-3,R05,2026-11-26,19:30,instagram,story_3,review,,,,"""Sudah tayang"" — otomatis menunggu feed-nya tayang dulu."
+R05-reel,R05,2026-11-28,12:00,instagram,reel,review,,,,Reel 23 detik dari slide carousel. Reel pertama = uji coba jalur video.
+R06-story-1,R06,2026-11-29,06:00,instagram,story_1,review,,,,"Teaser, ±2 jam sebelum feed. Tanpa sticker (API tidak bisa)."
+R06-story-2,R06,2026-11-29,07:30,instagram,story_2,review,,,,"Proses masak, ±30 menit sebelum feed."
+R06-story-3,R06,2026-11-29,08:30,instagram,story_3,review,,,,"""Sudah tayang"" — otomatis menunggu feed-nya tayang dulu."
+R06-reel,R06,2026-12-01,19:30,instagram,reel,review,,,,Reel 23 detik dari slide carousel. Reel pertama = uji coba jalur video.
