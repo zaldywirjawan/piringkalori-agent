@@ -417,7 +417,12 @@ def st_generic(s, ctx):
     bg = "bg-sage" if s.get("style", "sage") == "sage" else "bg-krem"
     eyebrow = f'<div class="eyebrow">{esc(s["eyebrow"])}</div>' if s.get("eyebrow") else ""
     sub = f'<div class="subline" style="margin-top:30px">{rich(s["subline"])}</div>' if s.get("subline") else ""
-    hint = f'<div class="sticker-hint">{rich(s["sticker_hint"])}</div>' if s.get("sticker_hint") else ""
+    # `sticker_hint` di content.json adalah CATATAN untuk manusia (sticker apa
+    # yang bisa ditambahkan manual di aplikasi). Tidak dicetak di gambar,
+    # karena story kini tayang otomatis lewat API — dan API Instagram tidak
+    # bisa memasang sticker. Yang tersisa hanya pengisi ruang supaya footer
+    # tetap menempel di bawah.
+    hint = '<div style="margin-top:auto"></div>'
     block = (f'{eyebrow}<div class="headline fit" data-max="94" data-min="46">{rich(s["headline"])}</div>'
              f'<div class="rule"></div>{sub}')
     if s.get("image"):

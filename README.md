@@ -139,3 +139,28 @@ calendar.csv      jadwal + status — satu-satunya saklar tayang
 log-performa.csv  riwayat semua yang sudah tayang, untuk evaluasi
 docs/             SETUP.md (pemasangan) · SKEMA-CONTENT-JSON.md (format)
 ```
+
+---
+
+## Story & Reel otomatis
+
+Kolom `tipe_konten` di `calendar.csv` menentukan apa yang tayang:
+
+| tipe_konten | Yang tayang |
+|---|---|
+| `feed_carousel` | Carousel di feed |
+| `story_1`, `story_2`, `story_3` | Satu slide story (urutan sesuai `content.json`) pada jamnya sendiri |
+| `story` | Semua slide story sekaligus |
+| `reel` | Video `out/<KODE>/reel/reel.mp4` — dibuat otomatis dari slide carousel oleh `src/make_reel.py` setiap kali workflow "Render konten" jalan |
+
+Yang perlu diketahui:
+
+- **Story tayang tanpa sticker.** API Instagram tidak bisa memasang poll, quiz,
+  link, atau countdown. `sticker_hint` di `content.json` hanya catatan — kalau
+  mau, tambahkan sticker manual lewat aplikasi; kalau tidak, story tetap jalan.
+- Story bertipe `repost` ("sudah tayang") **menunggu feed-nya tayang dulu**,
+  walau jamnya sudah lewat.
+- Konten baru diarsipkan setelah **semua** barisnya (feed, story, reel) selesai.
+  Baris yang tidak jadi dipakai: ubah statusnya jadi `skipped`.
+- Caption reel sama dengan caption feed, kecuali `content.json` punya
+  `reel_caption`.

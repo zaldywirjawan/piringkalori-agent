@@ -6,6 +6,7 @@ on:
       - "content/**/content.json"
       - "brand/**"
       - "src/render.py"
+      - "src/make_reel.py"
   workflow_dispatch:
     inputs:
       buat_foto:
@@ -42,6 +43,11 @@ jobs:
       - name: Render semua slide
         run: python3 src/render.py --all
 
+      - name: Buat reel dari slide carousel
+        run: |
+          command -v ffmpeg >/dev/null || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          python3 src/make_reel.py --all
+
       - name: Simpan hasil ke repo
         run: |
           git config user.name  "piringkalori-agent"
@@ -50,6 +56,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "Tidak ada perubahan."
           else
-            git commit -m "render: perbarui slide & story"
+            git commit -m "render: perbarui slide, story & reel"
+            git pull --rebase --autostash
             git push
           fi

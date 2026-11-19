@@ -110,6 +110,11 @@ def urls_for(kode: str, kind: str) -> list:
     return [public_base() + p.relative_to(ROOT).as_posix() for p in sorted(d.glob("*.png"))]
 
 
+def reel_url(kode: str) -> str:
+    p = ROOT / "out" / kode / "reel" / "reel.mp4"
+    return public_base() + p.relative_to(ROOT).as_posix() if p.exists() else ""
+
+
 # --------------------------------------------------------------------------
 # Graph API
 # --------------------------------------------------------------------------
@@ -145,8 +150,8 @@ def make_container(**payload) -> str:
     return api("POST", f"{IGID}/media", **payload)["id"]
 
 
-def publish_container(cid: str) -> dict:
-    wait_ready(cid)
+def publish_container(cid: str, tries: int = 20) -> dict:
+    wait_ready(cid, tries)
     res = api("POST", f"{IGID}/media_publish", creation_id=cid)
     mid = res["id"]
     perma = requests.get(f"{BASE}/{mid}",
@@ -190,10 +195,21 @@ def post_single(doc: dict, kode: str) -> dict:
     return publish_container(make_container(**p))
 
 
-def post_story(doc: dict, kode: str) -> dict:
+def post_story(doc: dict, kode: str, nomor: int = 0) -> dict:
+    """Posting story. `nomor` 0 = semua slide sekaligus; 1, 2, 3… = satu slide
+    saja (tipe_konten `story_1`, `story_2`, … di calendar.csv), supaya teaser,
+    proses, dan pengumuman "sudah tayang" bisa punya jam sendiri-sendiri.
+
+    Catatan: API Instagram tidak bisa memasang sticker (poll, quiz, link,
+    countdown). Story tayang polos; sticker hanya bisa ditambah manual.
+    """
     urls = urls_for(kode, "story")
     if not urls:
         raise RuntimeError("Tidak ada gambar story untuk diposting.")
+    if nomor:
+        if nomor > len(urls):
+            raise RuntimeError(f"Story nomor {nomor} tidak ada — hanya ada {len(urls)} slide.")
+        urls = [urls[nomor - 1]]
     out = []
     for u in urls:
         out.append(publish_container(make_container(image_url=u, media_type="STORIES")))
@@ -202,7 +218,54 @@ def post_story(doc: dict, kode: str) -> dict:
             "permalink": out[0]["permalink"]}
 
 
-HANDLERS = {"feed_carousel": post_carousel, "feed_single": post_single, "story": post_story}
+def post_reel(doc: dict, kode: str) -> dict:
+    """Posting Reel dari out/<KODE>/reel/reel.mp4 (dibuat src/make_reel.py)."""
+    url = reel_url(kode)
+    if not url:
+        raise RuntimeError("Video reel belum ada. Jalankan workflow 'Render konten' dulu.")
+    cap = dict(doc, caption=doc["reel_caption"]) if doc.get("reel_caption") else doc
+    cid = make_container(media_type="REELS", video_url=url, caption=caption_of(cap),
+                         share_to_feed="true")
+    # Video diproses jauh lebih lama daripada gambar — beri waktu sampai 5 menit.
+    return publish_container(cid, tries=60)
+
+
+HANDLERS = {"feed_carousel": post_carousel, "feed_single": post_single,
+            "story": post_story, "reel": post_reel}
+
+
+def story_nomor(tipe: str) -> int:
+    """`story_2` -> 2, `story` -> 0, selain story -> -1."""
+    if tipe == "story":
+        return 0
+    if tipe.startswith("story_") and tipe[6:].isdigit():
+        return int(tipe[6:])
+    return -1
+
+
+def jalankan(tipe: str, doc: dict, kode: str) -> dict:
+    n = story_nomor(tipe)
+    if n >= 0:
+        return post_story(doc, kode, n)
+    if tipe not in HANDLERS:
+        raise RuntimeError(f"tipe_konten tidak dikenal: {tipe}")
+    return HANDLERS[tipe](doc, kode)
+
+
+def menunggu_feed(row: dict, doc: dict, rows: list) -> bool:
+    """Story bertipe `repost` ("sudah tayang") jangan mendahului feed-nya.
+
+    Jadwal GitHub Actions bisa telat; tanpa penjaga ini, story "resep sudah
+    naik" bisa tayang padahal carousel-nya belum. Kalau kode ini memang tidak
+    punya baris feed di kalender, tidak ada yang ditunggu.
+    """
+    n = story_nomor(row.get("tipe_konten", ""))
+    stories = doc.get("story", [])
+    if n < 1 or n > len(stories) or stories[n - 1].get("type") != "repost":
+        return False
+    feed = [x for x in rows if x["kode"] == row["kode"]
+            and x.get("tipe_konten", "").startswith("feed")]
+    return bool(feed) and not any(x.get("status") == "posted" for x in feed)
 
 
 def caption_of(doc: dict) -> str:
@@ -245,7 +308,21 @@ def caption_of(doc: dict) -> str:
 # arsip + log
 # --------------------------------------------------------------------------
 
-def archive(kode: str, row: dict, doc: dict):
+def catat_log(kode: str, row: dict, doc: dict):
+    new = not LOG.exists()
+    with LOG.open("a", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        if new:
+            w.writerow(["kode", "judul", "tipe", "posted_at", "jam_posting",
+                        "hashtag_set", "media_id", "permalink",
+                        "save_rate", "share_rate", "comment_rate", "catatan"])
+        w.writerow([kode, doc.get("judul", ""), row.get("tipe_konten", ""),
+                    row.get("posted_at", ""), row.get("jam_posting", ""),
+                    doc.get("hashtag_set", ""), row.get("media_id", ""),
+                    row.get("permalink", ""), "", "", "", ""])
+
+
+def archive(kode: str, row: dict, doc: dict, rows: list):
     stamp = dt.datetime.now(TZ).strftime("%Y-%m")
     dest = ROOT / "archive" / stamp / kode
     dest.mkdir(parents=True, exist_ok=True)
@@ -258,19 +335,11 @@ def archive(kode: str, row: dict, doc: dict):
         "media_id": row.get("media_id"), "permalink": row.get("permalink"),
         "posted_at": row.get("posted_at"), "tipe": row.get("tipe_konten"),
         "hashtag_set": doc.get("hashtag_set"),
+        # semua tayangan kode ini (feed, story, reel), bukan cuma yang terakhir
+        "tayangan": [{"tipe": x.get("tipe_konten"), "media_id": x.get("media_id"),
+                      "permalink": x.get("permalink"), "posted_at": x.get("posted_at")}
+                     for x in rows if x["kode"] == kode and x.get("status") == "posted"],
     }, ensure_ascii=False, indent=2), encoding="utf-8")
-
-    new = not LOG.exists()
-    with LOG.open("a", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        if new:
-            w.writerow(["kode", "judul", "tipe", "posted_at", "jam_posting",
-                        "hashtag_set", "media_id", "permalink",
-                        "save_rate", "share_rate", "comment_rate", "catatan"])
-        w.writerow([kode, doc.get("judul", ""), row.get("tipe_konten", ""),
-                    row.get("posted_at", ""), row.get("jam_posting", ""),
-                    doc.get("hashtag_set", ""), row.get("media_id", ""),
-                    row.get("permalink", ""), "", "", "", ""])
 
 
 def folder_of(kode: str):
@@ -431,18 +500,32 @@ def main():
             doc = load_doc(kode)
             print(f"   caption {len(caption_of(doc))} karakter, "
                   f"{len(urls_for(kode,'carousel'))} slide, "
-                  f"{len(urls_for(kode,'story'))} story")
-            for u in urls_for(kode, tipe.replace("feed_carousel", "carousel")
-                                          .replace("feed_single", "carousel")):
+                  f"{len(urls_for(kode,'story'))} story, "
+                  f"reel {'ada' if reel_url(kode) else 'BELUM ADA'}")
+            if menunggu_feed(r, doc, rows):
+                print("   (akan menunggu sampai feed-nya tayang dulu)")
+            n = story_nomor(tipe)
+            if tipe == "reel":
+                daftar = [reel_url(kode)]
+            elif n >= 0:
+                daftar = urls_for(kode, "story")
+                daftar = daftar[n - 1:n] if n else daftar
+            else:
+                daftar = urls_for(kode, "carousel")
+            for u in daftar:
                 print(f"   {u}")
             continue
         try:
             doc = load_doc(kode)
-            res = HANDLERS[tipe](doc, kode)
+            if menunggu_feed(r, doc, rows) and not a.force:
+                print("   Ditahan: feed-nya belum tayang. Dicoba lagi di putaran berikutnya.")
+                continue
+            res = jalankan(tipe, doc, kode)
             r.update(res, status="posted",
                      posted_at=dt.datetime.now(TZ).strftime("%Y-%m-%d %H:%M"), catatan="")
             print(f"   TAYANG — {res['permalink'] or res['media_id']}")
             terbit.append((kode, r, doc))
+            catat_log(kode, r, doc)
         except Exception as e:  # noqa: BLE001
             r["status"] = "failed"
             r["catatan"] = str(e)[:280]
@@ -460,7 +543,9 @@ def main():
                 print(f"\n{kode}: belum diarsipkan — masih ada "
                       f"{len(sisa)} baris yang menunggu tayang.")
                 continue
-            archive(kode, row, doc)
+            if not (ROOT / "out" / kode).exists():
+                continue  # sudah diarsipkan oleh baris lain di putaran ini
+            archive(kode, row, doc, rows)
             print(f"\n{kode}: diarsipkan ke archive/{dt.datetime.now(TZ):%Y-%m}/{kode}/")
         write_cal(rows)
         print("\ncalendar.csv diperbarui.")
